@@ -1,12 +1,12 @@
 # Asape
 
-# Dependencys
+## Dependencys
 Dependencys of theses project
 Weka Jar
 Jamn Library Jar
 
-# Arff Folder
+## Arff Folder
 The arff folder contains all data sets in the standard weka format
 
-# MATLAB
+## MATLAB
 The final data set, and they explanation.

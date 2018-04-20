@@ -1,0 +1,89 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute year numeric
+@attribute AmerTeam {'Baltimore Orioles','Boston Red Sox','Chicago White Sox','Cleveland Indians','Detroit Tigers','Kansas City Royals','Milwaukee Brewers',Minnesota,'Minnesota Twins','NY Yankees','Oakland A_primes','Philadelphia A_primes','St. Louis Browns','Toronto Blue Jays','Washington Senators'}
+@attribute NatlTeam {'Atlanta Braves','Boston Braves','Brooklyn Dodgers','Chicago Cubs','Cincinnati Reds','LA Dodgers','Milwaukee Braves','NY Giants','NY Mets','Philadelphia Phillies','Pittsburg Pirates','SD Padres','San Francisco Giants','St. Louis Cardinals'}
+@attribute Game1 numeric
+@attribute Game2 numeric
+@attribute Game3 numeric
+@attribute Game4 numeric
+@attribute Game5 numeric
+@attribute Game6 numeric
+@attribute Game7 numeric
+@attribute amer.home numeric
+@attribute amer.away numeric
+@attribute natl.home numeric
+@attribute natl.away numeric
+
+@data
+0.557143,'NY Yankees','Cincinnati Reds',0,0.333333,0.666667,0.666667,0.666667,?,?,0.987603,0.497312,0.305019,0.597
+0.671429,'Baltimore Orioles','NY Mets',0,0.333333,1,1,1,?,?,0.735537,0.663978,0.397683,0.6
+0.8,'NY Yankees','LA Dodgers',1,1,0,0,0,0.666667,?,0.479339,0.513441,0.525097,0.506
+0.028571,'Washington Senators','NY Giants',0.333333,0,1,0.666667,1,0,0,0.194215,0.607527,0.505792,0.553
+0.814286,'Baltimore Orioles','Pittsburg Pirates',0,0.333333,0.666667,0.666667,1,0.333333,0.333333,0.549587,0.61828,0.239382,0.617
+0.771429,'NY Yankees','Cincinnati Reds',1,1,0.333333,0.333333,?,?,?,0,0.806452,0.285714,0.654
+0.985714,Minnesota,'Atlanta Braves',0,0,1,1,1,0,0,0.27686,0.497312,0.239382,0.568
+0.657143,'Detroit Tigers','St. Louis Cardinals',1,0.666667,0.333333,0.333333,0,0.666667,0.666667,0.528926,0.596774,0.189189,0.617
+0.885714,'Detroit Tigers','SD Padres',0.666667,1,0,0,0,?,?,0.342975,0.752688,0.239382,0.543
+0.9,'Kansas City Royals','St. Louis Cardinals',0.333333,0.333333,0.666667,1,0.666667,0,0,0.194215,0.416667,0.525097,0.58
+0.942857,'Oakland A_primes','LA Dodgers',1,1,0,0.333333,0.333333,?,?,0.429752,0.696237,0.096525,0.613
+0.628571,'Baltimore Orioles','LA Dodgers',0.666667,0.666667,0,0,?,?,?,0.18595,0.663978,0.474903,0.519
+0.6,'NY Yankees','St. Louis Cardinals',1,0.666667,0,0.333333,0.333333,0.666667,1,0.22314,0.663978,0.239382,0.556
+0.085714,'NY Yankees','St. Louis Cardinals',0,0,0.666667,0.666667,?,?,?,0.46281,0.747312,0.054054,0.688
+0.7,'Baltimore Orioles','Pittsburg Pirates',0,0,1,1,1,0,0.333333,0.516529,0.63172,0.459459,0.549
+0.457143,'Cleveland Indians','NY Giants',1,1,0.333333,0.333333,?,?,?,0.838843,0.852151,0.640927,0.564
+0.3,'NY Yankees','St. Louis Cardinals',0,0.333333,0,0.666667,0.666667,?,?,0.570248,0.572581,0.783784,0.627
+0.728571,'Oakland A_primes','NY Mets',0,0.333333,0.666667,1,1,0,0,0.22314,0.497312,0,0.488
+0.471429,'NY Yankees','Brooklyn Dodgers',0,0,1,1,1,0,1,0.46281,0.572581,0.756757,0.553
+0.1,'Philadelphia A_primes','Chicago Cubs',0.666667,0.666667,0.333333,0,0,?,?,0.900826,0.677419,0.555985,0.613
+0.128571,'Philadelphia A_primes','St. Louis Cardinals',0.666667,1,0.333333,0,0.333333,0.666667,1,0.979339,0.677419,0.621622,0.618
+0.857143,'Milwaukee Brewers','St. Louis Cardinals',0.666667,1,0.333333,0,0,1,1,0.090909,0.61828,0.142857,0.568
+0.314286,'St. Louis Browns','St. Louis Cardinals',0.666667,1,0,0.333333,0.333333,1,?,0.570248,0.260753,0.694981,0.654
+0.614286,'Minnesota Twins','LA Dodgers',0,0,1,1,1,0,0.333333,0.27686,0.731183,0.332046,0.58
+0.5,'NY Yankees','Milwaukee Braves',0,0.333333,0.666667,1,1,0,0.333333,0.247934,0.782258,0.204633,0.649
+0.828571,'Kansas City Royals','Philadelphia Phillies',1,1,0,0,0.333333,1,?,0.173554,0.63172,0.285714,0.519
+0.428571,'NY Yankees','Brooklyn Dodgers',1,0.666667,0.333333,0,0.333333,0.666667,0.666667,0.301653,0.642473,0.177606,0.68
+0.271429,'NY Yankees','Brooklyn Dodgers',0,0.333333,0.666667,0.666667,0.666667,?,?,0.409091,0.782258,0.555985,0.623
+0.971429,'Oakland A_primes','Cincinnati Reds',1,1,0.333333,0.333333,?,?,?,0.27686,0.763441,0.142857,0.556
+0.642857,'Boston Red Sox','St. Louis Cardinals',0.333333,0,1,1,0.666667,0,0.333333,0.173554,0.465054,0.285714,0.65
+0.757143,'Boston Red Sox','Cincinnati Reds',0,0.333333,1,0.666667,1,0,0.333333,0.070248,0.672043,1,0.543
+0.114286,'Philadelphia A_primes','St. Louis Cardinals',0,0,1,1,0.666667,0,?,0.826446,0.553763,0.606178,0.506
+0.228571,'NY Yankees','Chicago Cubs',0.666667,0.666667,0,0,?,?,?,0.623967,0.615591,0.15444,0.6
+0.571429,'NY Yankees','San Francisco Giants',0.666667,1,0,0.333333,0,1,0.666667,0.256198,0.545699,0.822394,0.506
+1,'Toronto Blue Jays','Atlanta Braves',1,0.666667,0,0,0.333333,0.666667,?,0.376033,0.465054,0.382239,0.58
+0.214286,'NY Yankees','NY Giants',0,0,0.666667,1,0.666667,?,?,0.731405,0.607527,0.525097,0.584
+0.871429,'Baltimore Orioles','Philadelphia Phillies',0.333333,0,0.666667,0.666667,0.666667,?,?,0.22314,0.63172,0.332046,0.494
+0.414286,'NY Yankees','NY Giants',0.333333,0,1,0.666667,0.666667,0,?,0.640496,0.524194,0.42471,0.608
+0.957143,'Oakland A_primes','San Francisco Giants',0,0,0.666667,0.666667,?,?,?,0.429752,0.532258,0.474903,0.481
+0.2,'NY Yankees','NY Giants',1,0.666667,0,0,0.333333,0.666667,?,0.677686,0.663978,0.525097,0.526
+0.357143,'NY Yankees','Brooklyn Dodgers',0,0,1,1,0.666667,0.333333,0,0.623967,0.502688,0.555985,0.545
+0,'NY Yankees','NY Giants',1,0.333333,1,0.333333,?,?,?,0.355372,0.572581,0.474903,0.553
+0.585714,'NY Yankees','LA Dodgers',0.333333,0.333333,1,1,?,?,?,0.669421,0.564516,0.474903,0.568
+0.157143,'Washington Senators','NY Giants',1,1,0,0.333333,0.333333,?,?,0.173554,0.91129,0.420849,0.558
+0.442857,'NY Yankees','Brooklyn Dodgers',0,0,1,1,0.666667,0,?,0.355372,0.817204,0.957529,0.584
+0.242857,'NY Yankees','Cincinnati Reds',0,0,0.666667,0.666667,?,?,?,0.46281,1,0.606178,0.568
+0.385714,'NY Yankees','Brooklyn Dodgers',0,0.333333,0.666667,0.666667,0.666667,?,?,0.570248,0.537634,0.355212,0.636
+0.528571,'Chicago White Sox','LA Dodgers',0,0.333333,1,1,0.666667,0.333333,?,0.194215,0.677419,0.227799,0.538
+0.142857,'NY Yankees','Chicago Cubs',0,0,0.666667,0.666667,?,?,?,1,0.607527,0.606178,0.481
+0.171429,'Detroit Tigers','St. Louis Cardinals',0.333333,0,1,0.666667,0.666667,0.333333,0.333333,0.46281,0.744624,0.355212,0.618
+0.371429,'Cleveland Indians','Boston Braves',1,0.666667,0,0,0.333333,0.666667,?,0.214876,0.747312,0.235521,0.597
+0.057143,'NY Yankees','St. Louis Cardinals',0,0.333333,1,0.666667,0.666667,0.333333,0.333333,0.429752,0.432796,0.305019,0.545
+0.257143,'Detroit Tigers','Cincinnati Reds',0.666667,1,0,0.333333,0,1,1,0.289256,0.47043,0.745174,0.584
+0.685714,'Baltimore Orioles','Cincinnati Reds',0.666667,0.666667,0,0.333333,0,?,?,0.681818,0.663978,0.667954,0.556
+0.785714,'NY Yankees','LA Dodgers',0,0.333333,0.666667,0.666667,1,0,?,0.479339,0.532258,0.382239,0.58
+0.485714,'NY Yankees','Brooklyn Dodgers',1,1,0,0,0,1,0.666667,0.301653,0.712366,0.555985,0.532
+0.4,'NY Yankees','Philadelphia Phillies',0.666667,0.666667,0,0,?,?,?,0.516529,0.607527,0.305019,0.571
+0.342857,'Boston Red Sox','St. Louis Cardinals',0.666667,1,0,0.333333,0,1,1,0.946281,0.537634,0.374517,0.628
+0.014286,'NY Yankees','NY Giants',0.333333,0.666667,1,0.666667,0,0.666667,?,0.173554,0.876344,0.305019,0.632
+0.185714,'Detroit Tigers','Chicago Cubs',0.333333,0,0.666667,0.666667,1,0.666667,?,0.479339,0.510753,0.756757,0.571
+0.542857,'NY Yankees','Pittsburg Pirates',1,0.666667,0,0.333333,0.333333,0.666667,1,0.623967,0.502688,0.555985,0.558
+0.328571,'Detroit Tigers','Chicago Cubs',0.333333,0,0.333333,0.666667,0.666667,1,0.666667,0.392562,0.365591,0.471042,0.62
+0.842857,'NY Yankees','LA Dodgers',0,0,1,1,1,0.333333,?,0.264463,0.333333,0.223938,0.556
+0.914286,'Boston Red Sox','NY Mets',0.666667,0.666667,0.333333,0.333333,0,1,1,0.27686,0.516129,0.571429,0.654
+0.042857,'Washington Senators','Pittsburg Pirates',0.666667,1,0,0,0.333333,1,1,0.595041,0.55914,0.555985,0.566
+0.742857,'Oakland A_primes','LA Dodgers',0.666667,1,0,0,0,?,?,0.173554,0.397849,0.428571,0.617
+0.714286,'Oakland A_primes','Cincinnati Reds',0.666667,0.666667,0.333333,0,0.333333,1,0.666667,0.247934,0.58871,0.084942,0.679
+0.071429,'NY Yankees','Pittsburg Pirates',0.666667,0.666667,0,0,?,?,?,0.772727,0.862903,0.297297,0.613
+0.285714,'NY Yankees','St. Louis Cardinals',0.666667,1,0.333333,0.333333,0.333333,?,?,0.785124,0.607527,0.957529,0.597
+0.514286,'NY Yankees','Milwaukee Braves',1,1,0,0.333333,0,0.666667,0.666667,0.033058,0.712366,0.355212,0.571
+0.928571,'Minnesota Twins','St. Louis Cardinals',0,0,1,1,1,0,0,0.528926,0,0.285714,0.568

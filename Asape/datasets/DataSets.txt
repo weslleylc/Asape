@@ -1,0 +1,13 @@
+Human Activity Recognition Using Smartphones Data Set 
+
+weather
+data set que usa humidade e temperatura para inferir o clima, pode ser usado em casacos para ajustar automaticamente a temperatura
+
+EEG Eye State
+data set que usa sinais Eletroencefalograma para inferir se o usuário está com os olhos abertos ou não. Pode ser usado em um boné para caminhoneiros.
+
+heart satlog
+data set que usa batimentos cardiácos para diverssos fins
+
+
+----------------------------------------

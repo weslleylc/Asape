@@ -1,0 +1,21 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute DIF numeric
+@attribute ADD numeric
+
+@data
+0.816901,1.9
+0.676056,3.4
+0.669014,5.5
+0.760563,1.6
+0.514085,-0.1
+0.133803,?
+0.640845,?
+0,0.8
+1,?
+0.570423,4.6
+0.866197,?
+0.894366,?
+0.528169,1.1
+0.633803,4.4
+0.584507,0.1

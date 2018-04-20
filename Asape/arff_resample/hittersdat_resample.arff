@@ -1,0 +1,33 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute PLAYER {'Babe Ruth','Bob Johnson','Charlie Keller','Chuck Klein','Dolph Camilli','Earl Averill','Hack Wilson','Hank Greenberg','Harry Heilman','Jackie Robinson','Jimmy Foxx','Joe Dimaggio','Johnny Mize','Ken Williams','Lefty O_primeDoul','Lou Gehrig','Mel Ott','Ralph Kiner','Rogers Hornsby','Roy Campanella','Stan Musial','Ted Williams','Tommy Henrich','Tris Speaker','Ty Cobb'}
+@attribute OBA numeric
+@attribute EBP numeric
+@attribute SUM numeric
+
+@data
+'Babe Ruth',0.972477,1,752
+'Hack Wilson',0.183486,0.41875,573
+'Chuck Klein',0.036697,0.35,546
+'Ted Williams',1,0.66875,702
+'Joe Dimaggio',0.211009,0.5,589
+'Stan Musial',0.522936,0.4125,609
+'Jimmy Foxx',0.495413,0.6375,642
+'Jackie Robinson',0.357798,0.0875,539
+'Roy Campanella',0,0.41875,553
+'Johnny Mize',0.201835,0.475,584
+'Earl Averill',0.183486,0.31875,557
+'Ken Williams',0.229358,0.35625,568
+'Harry Heilman',0.513761,0.23125,579
+'Bob Johnson',0.165138,0.2875,550
+'Lou Gehrig',0.66055,0.675,666
+'Tris Speaker',0.605505,0.15,576
+'Tommy Henrich',0.06422,0.2875,539
+'Rogers Hornsby',0.678899,0.4625,634
+'Mel Ott',0.357798,0.38125,586
+'Dolph Camilli',0.06422,0.3125,543
+'Ty Cobb',0.513761,0,542
+'Ralph Kiner',0.266055,0.63125,616
+'Charlie Keller',0.321101,0.39375,584
+'Lefty O_primeDoul',0.348624,0.175,552
+'Hank Greenberg',0.33945,0.675,631

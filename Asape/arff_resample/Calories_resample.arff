@@ -1,0 +1,48 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Food {'Florentine manicotti','apricot bar','baba ghanoush with salad','banana cake',blondie,'blue cheese dressing',brownie,'butterscotch bar','carrot muffin',cereal,cheese,'cheese curls','chinese chicken','chocolate chip cookie','chocolate mousse','chocolate pudding',crackers,'crumb cake','egg foo young','fig bars','granola bar','green beans',gyoza,'hummus with salad','imperial chicken','jelly diet candy-fruit flavor','jelly diet candy-reds flavor',lasagna,'lemon pound cake','lentil soup','meatless sandwich','mixed fruits','noodles and alfredo sauce','oat bran snack bar','oatmeal cookie','oatmeal raisin cookie','pasta with shrimp and tomato sauce','sausage biscuit','spread cheese','vegetable soup'}
+@attribute Per_gram numeric
+@attribute Per_item numeric
+@attribute Classification {L,N,R}
+
+@data
+'jelly diet candy-reds flavor',?,1,L
+'jelly diet candy-fruit flavor',?,0.622302,L
+'oatmeal raisin cookie',0.305085,0.136691,N
+'sausage biscuit',0.220339,0.111511,N
+'fig bars',0.084746,0.097122,N
+'oat bran snack bar',0.644068,0.201439,R
+'noodles and alfredo sauce',0.254237,0.107914,N
+'cheese curls',0.271186,0,N
+'granola bar',0.067797,0.089928,R
+'crumb cake',0.440678,0.147482,N
+'apricot bar',0.508475,0.151079,R
+'chocolate pudding',0.355932,0.118705,N
+brownie,0.474576,0.241007,R
+lasagna,0.101695,0.07554,N
+'hummus with salad',?,0.442446,L
+'imperial chicken',0.186441,0.086331,N
+'lemon pound cake',0.016949,0.107914,R
+'blue cheese dressing',0.186441,0.086331,N
+'oatmeal cookie',0.932203,0.266187,R
+gyoza,?,0.316547,L
+'chinese chicken',?,0.154676,L
+'vegetable soup',0,0.035971,N
+'pasta with shrimp and tomato sauce',0.110169,0.064748,N
+'carrot muffin',0.966102,0.251799,R
+'lentil soup',0.271186,0.098921,N
+cereal,0.372881,0.122302,N
+'banana cake',0.372881,0.190647,R
+'chocolate chip cookie',0.559322,0.223022,R
+crackers,0.457627,0.154676,N
+cheese,0.40678,0.136691,N
+'butterscotch bar',0.40678,0.160072,R
+'baba ghanoush with salad',?,0.111511,L
+blondie,0.491525,0.161871,R
+'chocolate mousse',0.322034,0.122302,N
+'mixed fruits',0.355932,0.129496,N
+'green beans',0.211864,0.079137,N
+'Florentine manicotti',?,0.122302,L
+'spread cheese',0.525424,0.111511,N
+'egg foo young',?,0.388489,L
+'meatless sandwich',1,0.248201,R

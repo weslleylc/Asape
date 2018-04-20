@@ -1,0 +1,59 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute State {Ala.,Alaska,Ariz.,Ark.,Calif.,Colo.,Conn.,D.C.,Del.,Fla.,Ga.,Hawaii,Idaho,Ill.,Ind.,Iowa,Kan.,Ky.,La.,Maine,Mass.,Md.,Mich.,Minn.,Miss.,Mo.,Mont.,N.C.,N.Dak,N.H.,N.J.,N.Mex.,N.Y.,Neb.,Nev.,Ohio,Okla.,Oreg.,Pa.,R.I.,S.C.,S.Dak,Tenn.,Tex.,Utah,Va.,Vt.,W.Va.,Wash.,Wis.,Wyo.}
+@attribute Region {ENC,ESC,MA,MN,NE,PA,SA,WNC,WSC}
+@attribute Pay numeric
+@attribute Spend numeric
+
+@data
+Mont.,MN,0.188034,3.95
+Vt.,NE,0.094017,3.55
+Fla.,SA,0.179487,3.73
+Iowa,WNC,0.153846,3.57
+Va.,SA,0.226496,3.59
+Ill.,ENC,0.388889,3.62
+N.Mex.,MN,0.192308,3.4
+Calif.,PA,0.470085,3.61
+Colo.,MN,0.333333,4.04
+S.C.,SA,0.149573,2.92
+Ind.,ENC,0.264957,3.16
+Tex.,WSC,0.303419,3.43
+Hawaii,PA,0.32906,3.77
+S.Dak,WNC,0,2.97
+Tenn.,ESC,0.15812,2.53
+Nev.,MN,0.320513,2.93
+Wis.,ENC,0.358974,4.25
+Pa.,MA,0.333333,4.17
+Minn.,WNC,0.397436,3.98
+Kan.,WNC,0.405983,3.91
+Mass.,NE,0.371795,4.64
+Md.,SA,0.388889,4.35
+D.C.,SA,0.679487,5.02
+Wash.,PA,0.337607,3.71
+Miss.,ESC,0.012821,2.31
+Alaska,PA,1,8.35
+Mo.,WNC,0.166667,3.16
+Ky.,ESC,0.119658,2.85
+La.,WSC,0.102564,3.12
+Ga.,SA,0.17094,2.98
+Del.,SA,0.277778,4.52
+Idaho,MN,0.123932,2.51
+N.Dak,WNC,0.115385,3.06
+Okla.,WSC,0.141026,2.75
+R.I.,NE,0.487179,4.67
+Wyo.,MN,0.388889,5.44
+Ala.,ESC,0.205128,2.73
+Ohio,ENC,0.273504,3.55
+Maine,NE,0.064103,3.35
+N.Y.,MA,0.538462,5.71
+Utah,MN,0.179487,2.3
+Conn.,NE,0.363248,4.89
+Ark.,WSC,0.059829,2.64
+N.C.,SA,0.200855,3.37
+Oreg.,PA,0.32906,4.12
+N.H.,NE,0.094017,3.11
+N.J.,MA,0.388889,5.54
+Neb.,WNC,0.119658,3.29
+Mich.,ENC,0.517094,3.78
+W.Va.,SA,0.106838,2.82
+Ariz.,MN,0.363248,2.83

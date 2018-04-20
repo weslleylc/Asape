@@ -1,0 +1,30 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute distance numeric
+@attribute recession_velocity numeric
+
+@data
+1,800
+0.117378,-70
+1,1090
+1,850
+1,500
+0.441057,500
+0.695122,500
+0.123476,-220
+0.49187,920
+0.441057,150
+0.237805,270
+0.847561,960
+0.123476,-185
+0.542683,450
+0,170
+0.303862,200
+0.212398,200
+0.441057,-30
+0.441057,650
+0.237805,290
+0.542683,500
+0.390244,300
+0.001016,290
+0.09248,-130

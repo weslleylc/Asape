@@ -1,0 +1,25 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute subject_No numeric
+@attribute forward_backward numeric
+@attribute side_side numeric
+@attribute Age_Group {elderly,young}
+
+@data
+0.25,0.083333,0.193548,young
+1,1,0.870968,elderly
+0.5,0,0.064516,young
+0.375,0.138889,0.032258,elderly
+0.75,0.194444,0.258065,elderly
+0.625,0,0.129032,young
+0,0.305556,0.225806,young
+0.875,0.083333,0.258065,young
+0.125,0.194444,0,young
+0.25,0.166667,0.258065,elderly
+0.875,0.277778,0.354839,elderly
+0.375,0.027778,0.387097,young
+0.75,0.222222,0.064516,young
+0.625,0.305556,0.451613,elderly
+0.125,0.444444,1,elderly
+0,0.138889,0.129032,elderly
+0.5,0.416667,0.193548,elderly

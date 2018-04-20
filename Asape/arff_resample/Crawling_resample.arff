@@ -1,0 +1,21 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute birth_month {April,August,December,February,January,July,June,March,May,November,October,September}
+@attribute avg_crawling_age numeric
+@attribute SD numeric
+@attribute n numeric
+@attribute temperature numeric
+
+@data
+May,0,0.900763,0.214286,52
+January,0.24,0.522901,0.392857,66
+September,1,0.465649,0.607143,33
+August,0.807619,0.725191,0.857143,30
+February,0.369524,0.477099,0.535714,73
+December,0.712381,0,0.821429,57
+October,0.908571,0.603053,0.821429,37
+June,0.544762,0.912214,0.285714,39
+November,0.914286,0.652672,1,48
+March,0.213333,1,0.071429,72
+July,0.96381,0.458015,0,33
+April,0.620952,0.19084,0.178571,63

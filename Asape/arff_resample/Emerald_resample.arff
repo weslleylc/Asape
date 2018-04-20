@@ -1,0 +1,15 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute year numeric
+@attribute Emerald_costs numeric
+@attribute CPI-U numeric
+@attribute CPI-med_care numeric
+
+@data
+1,1,1,195.2
+0,0,0,125.7
+0.833333,0.737736,0.869841,182.8
+0.333333,0.428302,0.31746,141.9
+0.166667,0.092453,0.155556,132.7
+0.5,0.603774,0.495238,154.1
+0.666667,0.541509,0.739683,169.3

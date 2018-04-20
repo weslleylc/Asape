@@ -1,0 +1,56 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute City {Amsterdam,Athens,Bogota,Bombay,Brussels,'Buenos Aires',Cairo,Caracas,Chicago,Copenhagen,Dublin,Dusseldorf,Frankfurt,Geneva,Helsinki,'Hong Kong',Houston,Jakarta,Johannesburg,'Kuala Lumpur',Lagos,Lisbon,London,'Los Angeles',Luxembourg,Madrid,Manila,'Mexico City',Milan,Montreal,Nairobi,'New York',Nicosia,Oslo,Panama,Paris,'Rio de Janeiro','Sao Paulo',Seoul,Singpore,Stockholm,Sydney,Taipei,'Tel Aviv',Tokyo,Toronto,Vienna,Zurich}
+@attribute Work numeric
+@attribute Price numeric
+@attribute Salary numeric
+
+@data
+Taipei,0.709596,0.633803,34.5
+Lagos,0.256313,0.174883,2.7
+Vienna,0.248737,0.559859,51.3
+'Kuala Lumpur',0.737374,0.15493,9.9
+Bombay,0.592172,0,5.3
+'Rio de Janeiro',0.209596,0.187793,10.5
+Caracas,0.578283,0.360329,10.9
+Montreal,0.308081,0.497653,56.3
+Luxembourg,0.233586,0.478873,71.1
+Tokyo,0.375,0.994131,68
+Athens,0.263889,0.275822,30.4
+Nairobi,0.473485,0.172535,5.8
+Oslo,0,1,63.7
+Stockholm,0.280303,0.950704,39.2
+Madrid,0.160354,0.745305,50
+Geneva,0.375,0.769953,90.3
+'Mexico City',0.455808,0.228873,5.7
+'Tel Aviv',0.545455,0.434272,27
+'Hong Kong',1,0.393192,27.8
+Singpore,0.579545,0.400235,16.1
+'Sao Paulo',0.344697,0.21831,11.1
+Seoul,0.32702,0.328638,32.7
+Brussels,0.157828,0.510563,50.5
+Nicosia,0.305556,0.206573,28.3
+Cairo,?,0.079812,?
+Milan,0.239899,0.606808,53.3
+London,0.194444,0.632629,46.2
+Dublin,0.222222,0.536385,41.4
+Chicago,0.430556,0.511737,61.9
+Manila,0.864899,0.11385,4
+Sydney,0.107323,0.475352,52.1
+Houston,0.498737,0.488263,46.3
+Jakarta,?,0.156103,?
+Copenhagen,0.169192,0.715962,62.9
+'Los Angeles',0.612374,0.580986,65.2
+Dusseldorf,0.138889,0.565728,60.2
+Zurich,0.359848,0.818075,100
+Johannesburg,0.457071,0.244131,24
+Amsterdam,0.165404,0.414319,49
+'Buenos Aires',0.489899,0.302817,12.5
+Bogota,0.718434,0.089202,11.5
+Frankfurt,0.084596,0.518779,60.4
+Paris,0.203283,0.602113,45.9
+Toronto,0.385101,0.46831,58.2
+Helsinki,0.106061,0.9777,66.6
+'New York',0.453283,0.622066,65.8
+Panama,0.625,0.221831,13.8
+Lisbon,0.200758,0.303991,18.8

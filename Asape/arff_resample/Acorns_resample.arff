@@ -1,0 +1,48 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Species {'Quercus Chapmanii Sarg.','Quercus Douglasii Hook. & Arn','Quercus Durandii Buckl.','Quercus Engelmannii Greene','Quercus Garryana Hook.','Quercus Kelloggii Newb.','Quercus Laceyi Small.','Quercus Michauxii Nutt.','Quercus Muehlenbergii Engelm','Quercus Phellos L.','Quercus Prinus L.','Quercus Wislizenii A. DC.','Quercus agrifolia Nee.','Quercus alba L.','Quercus bicolor Willd.','Quercus chrysolepis Liebm.','Quercus coccinea Muenchh.','Quercus dumosa Nutt.','Quercus falcata Michx.','Quercus ilicifolia Wang.','Quercus imbricaria Michx.','Quercus incana Bartr.','Quercus laevis Walt.','Quercus laurifolia Michx.','Quercus lobata Nee','Quercus lyrata Walt.','Quercus macrocarpa Michx.','Quercus marilandica Muenchh.','Quercus myrtifolia Willd.','Quercus nigra L.','Quercus palustris Muenchh.','Quercus prinoides Willd.','Quercus rubra L.','Quercus stellata Wang.','Quercus texana Buckl.','Quercus tomentella Engelm','Quercus vaccinifolia Engelm.','Quercus velutina Lam.','Quercus virginiana Mill'}
+@attribute Region {Atlantic,California}
+@attribute Range numeric
+@attribute Acorn_size numeric
+@attribute Tree_Height numeric
+
+@data
+'Quercus Laceyi Small.',Atlantic,0.007753,0,11
+'Quercus Engelmannii Greene',California,0.008669,0.10119,17
+'Quercus falcata Michx.',Atlantic,0.481921,0.089286,30
+'Quercus Durandii Buckl.',Atlantic,0.061037,0.029762,23
+'Quercus Chapmanii Sarg.',Atlantic,0.055857,0.035714,15
+'Quercus prinoides Willd.',Atlantic,0.60012,0.077381,3
+'Quercus velutina Lam.',Atlantic,0.741965,0.196429,23
+'Quercus nigra L.',Atlantic,0.357626,0.047619,24
+'Quercus alba L.',Atlantic,0.852234,0.065476,27
+'Quercus vaccinifolia Engelm.',California,0.007401,0.005952,1
+'Quercus Garryana Hook.',California,0.036933,0.309524,20
+'Quercus tomentella Engelm',California,0,0.404762,18
+'Quercus Michauxii Nutt.',Atlantic,0.313081,0.386905,0.3
+'Quercus Phellos L.',Atlantic,0.349133,0.196429,27
+'Quercus Wislizenii A. DC.',California,0.024175,0.041667,21
+'Quercus Prinus L.',Atlantic,0.268995,0.607143,24
+'Quercus Muehlenbergii Engelm',Atlantic,0.60012,0.10119,24
+'Quercus texana Buckl.',Atlantic,0.028757,0.047619,9
+'Quercus laevis Walt.',Atlantic,0.139731,0.267857,9
+'Quercus virginiana Mill',Atlantic,0.280942,0.035714,15
+'Quercus chrysolepis Liebm.',California,0.023858,1,15
+'Quercus palustris Muenchh.',Atlantic,0.30413,0.047619,23
+'Quercus macrocarpa Michx.',Atlantic,0.811425,0.52381,25
+'Quercus incana Bartr.',Atlantic,0.132577,0.017857,13
+'Quercus laurifolia Michx.',Atlantic,0.187306,0.047619,27
+'Quercus bicolor Willd.',Atlantic,0.277946,0.184524,21
+'Quercus Douglasii Hook. & Arn',California,0.019242,0.22619,18
+'Quercus lyrata Walt.',Atlantic,0.316077,0.089286,24
+'Quercus agrifolia Nee.',California,0.02784,0.136905,23
+'Quercus lobata Nee',California,0.030202,0.333333,30
+'Quercus marilandica Muenchh.',Atlantic,0.650796,0.196429,9
+'Quercus imbricaria Michx.',Atlantic,0.523576,0.089286,18
+'Quercus rubra L.',Atlantic,1,0.464286,24
+'Quercus stellata Wang.',Atlantic,0.702178,0.130952,17
+'Quercus coccinea Muenchh.',Atlantic,0.316429,0.053571,4
+'Quercus myrtifolia Willd.',Atlantic,0.089054,0.005952,9
+'Quercus Kelloggii Newb.',California,0.028651,0.339286,26
+'Quercus ilicifolia Wang.',Atlantic,0.143396,0.047619,3
+'Quercus dumosa Nutt.',California,0.014801,0.077381,6

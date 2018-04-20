@@ -1,0 +1,26 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute City {Baltimore,Boston,Buffalo,Chicago,Cinn.,Connecticut,Dallas,Detroit,Houston,L.A.,'Minn/St. Paul',N.Y.,Newark,Patterson,Philadelphia,Pitt.,'San Francisco','St. Louis','Wash., D.C.'}
+@attribute 1972 numeric
+@attribute 1968 numeric
+
+@data
+N.Y.,0.344828,0.42
+Pitt.,0.482759,0.34
+'Minn/St. Paul',0.827586,0.5
+Newark,0.62069,0.54
+Buffalo,1,0.58
+'Wash., D.C.',0.586207,0.42
+Patterson,0.758621,0.56
+'St. Louis',0,0.45
+Cinn.,0.62069,0.51
+L.A.,0.517241,0.5
+Chicago,0.586207,0.52
+Detroit,0.37931,0.43
+'San Francisco',0.689655,0.55
+Boston,0.862069,0.45
+Philadelphia,0.344828,0.45
+Houston,0.517241,0.49
+Dallas,1,0.63
+Connecticut,0.689655,0.54
+Baltimore,0.758621,0.49

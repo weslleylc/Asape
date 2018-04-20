@@ -1,0 +1,17 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute FRB_Index numeric
+@attribute Unemployment numeric
+@attribute year numeric
+
+@data
+0.217391,0.096774,2
+1,0.709677,10
+0.543478,0,4
+0.369565,0.516129,5
+0.717391,0.354839,6
+0.304348,0.032258,3
+0.608696,1,9
+0,0.483871,1
+0.826087,0.322581,7
+0.847826,0.419355,8

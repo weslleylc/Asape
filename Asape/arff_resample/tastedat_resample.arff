@@ -1,0 +1,23 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute SCORE numeric
+@attribute SCR numeric
+@attribute LIQ numeric
+
+@data
+1,1,0
+0.690265,1,1
+0.168142,0,0
+0.070796,0,1
+0,0,0
+0.619469,1,1
+0.716814,1,0
+0.20354,0,1
+0.433628,1,1
+0.539823,0,0
+0.20354,0,0
+0.424779,1,1
+0.60177,1,0
+0.778761,1,0
+0.044248,0,1
+0.389381,0,1

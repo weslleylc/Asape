@@ -1,0 +1,115 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Gender {boy,girl}
+@attribute Grade numeric
+@attribute Age numeric
+@attribute Race {Other,White}
+@attribute Urban/Rural {Rural,Suburban,Urban}
+@attribute School {'Brentwood Elementary','Brentwood Middle','Brown Middle',Elm,Main,Portage,Ridge,Sand,'Westdale Middle'}
+@attribute Goals {Grades,Popular,Sports}
+@attribute Grades numeric
+@attribute Sports numeric
+@attribute Looks numeric
+@attribute Money numeric
+
+@data
+boy,0,0.333333,White,Suburban,'Brentwood Elementary',Grades,0.666667,0,0.333333,4
+girl,0,0.333333,White,Suburban,'Brentwood Elementary',Popular,1,0.333333,0,3
+boy,0.5,0.5,Other,Suburban,'Brentwood Elementary',Popular,0.666667,0.333333,0,4
+boy,0.5,0.666667,Other,Suburban,'Brentwood Elementary',Sports,1,0.333333,0,3
+boy,1,0.666667,White,Rural,'Brown Middle',Grades,1,0,0.333333,3
+boy,1,0.666667,White,Suburban,'Brentwood Middle',Sports,0.333333,0.666667,0,4
+girl,0.5,0.5,White,Urban,Main,Grades,1,0.333333,0,3
+girl,0.5,0.5,White,Urban,Portage,Popular,0.666667,0.333333,0,4
+girl,0,0.333333,White,Rural,Sand,Grades,0,0.666667,0.333333,4
+boy,0,0.333333,White,Urban,Portage,Popular,0.666667,0,0.333333,4
+girl,1,0.666667,White,Suburban,'Brentwood Middle',Popular,1,0.666667,0,2
+girl,0.5,0.666667,White,Suburban,'Brentwood Elementary',Grades,0.666667,1,0,2
+boy,0.5,0.5,White,Urban,Main,Grades,0.333333,0,0.666667,4
+boy,0.5,0.666667,White,Urban,Main,Popular,0.666667,0,0.333333,4
+girl,0,0.333333,White,Rural,Sand,Sports,0.666667,0.333333,0,4
+boy,0,0.333333,White,Urban,Main,Grades,0.666667,0,0.333333,4
+girl,1,0.833333,White,Rural,'Brown Middle',Grades,1,0.666667,0,2
+girl,1,0.833333,White,Suburban,'Brentwood Middle',Popular,0.333333,0.666667,0,4
+boy,0,0.333333,White,Urban,Main,Sports,0,0.333333,1,3
+girl,0,0.333333,White,Rural,Ridge,Grades,0,1,0.333333,3
+girl,1,0.666667,White,Suburban,'Brentwood Middle',Grades,1,0.333333,0,3
+boy,1,0.833333,White,Suburban,'Brentwood Middle',Grades,0.666667,0,0.333333,4
+girl,0.5,0.5,White,Rural,Ridge,Popular,0.333333,0.666667,0,4
+girl,0,0.333333,White,Urban,Main,Sports,0,0.666667,0.333333,4
+boy,0,0.333333,White,Urban,Main,Grades,0.666667,0,0.333333,4
+girl,1,0.833333,White,Rural,'Brown Middle',Grades,1,0.666667,0,2
+girl,0.5,0.666667,White,Urban,Main,Sports,0.333333,0,1,3
+girl,0.5,0.5,White,Urban,Main,Popular,1,0,0.333333,3
+boy,1,0.833333,White,Suburban,'Brentwood Middle',Grades,0,0.666667,1,2
+boy,1,0.666667,Other,Urban,'Westdale Middle',Sports,0.666667,0.333333,0,4
+boy,0,0.333333,White,Suburban,'Brentwood Elementary',Grades,0.333333,0,0.666667,4
+girl,1,0.666667,Other,Urban,'Westdale Middle',Popular,0.333333,0.666667,1,1
+boy,0,0.333333,Other,Urban,Portage,Grades,1,0.666667,0,2
+girl,0,0.333333,White,Rural,Sand,Grades,0,0.666667,0.333333,4
+boy,0.5,0.666667,White,Rural,Ridge,Popular,1,0,0.333333,3
+girl,1,0.666667,Other,Urban,'Westdale Middle',Grades,0.666667,0.333333,0,4
+boy,0,0.333333,White,Urban,Portage,Popular,1,0,0.333333,3
+boy,1,0.833333,White,Rural,'Brown Middle',Popular,0.333333,0.666667,1,1
+boy,0,0.333333,White,Urban,Main,Sports,0.333333,0,1,3
+boy,0.5,0.666667,White,Urban,Portage,Grades,0,0.333333,0.666667,4
+girl,0.5,0.5,White,Urban,Main,Grades,0,0.666667,0.333333,4
+boy,0.5,0.666667,White,Suburban,'Brentwood Middle',Popular,0.666667,0.333333,0,4
+girl,0.5,0.666667,White,Urban,Main,Grades,0,0.333333,0.666667,4
+boy,0.5,0.5,White,Rural,Ridge,Sports,0.333333,0,0.666667,4
+girl,1,0.666667,White,Urban,'Westdale Middle',Grades,1,0.333333,0,3
+girl,0,0.333333,White,Rural,Ridge,Sports,0.333333,0,0.666667,4
+girl,0.5,0.5,White,Urban,Main,Popular,1,0.666667,0.333333,1
+boy,0,0.333333,White,Urban,Portage,Sports,0.666667,0.333333,1,1
+boy,0.5,0.5,White,Rural,Ridge,Sports,0.666667,0,0.333333,4
+girl,0,0.5,White,Urban,Main,Grades,0.666667,0.333333,0,4
+girl,0.5,0.5,White,Urban,Portage,Grades,0,0.333333,0.666667,4
+girl,0,0,White,Suburban,'Brentwood Elementary',Grades,0,0.333333,0.666667,4
+girl,0.5,0.666667,White,Urban,Portage,Popular,0.666667,0,0.333333,4
+boy,0.5,0.5,White,Urban,Portage,Sports,0.666667,0,0.333333,4
+boy,1,0.666667,White,Suburban,'Brentwood Middle',Grades,1,0,0.666667,2
+girl,1,0.666667,White,Urban,'Westdale Middle',Popular,1,0,0.333333,3
+girl,1,0.666667,White,Urban,'Westdale Middle',Popular,1,0.333333,0,3
+girl,0,0.333333,White,Urban,Main,Grades,0,0.666667,0.333333,4
+boy,0.5,0.666667,White,Rural,Ridge,Popular,0.666667,0.333333,0,4
+boy,1,0.666667,White,Suburban,'Brentwood Middle',Grades,1,0,0.333333,3
+boy,1,0.666667,White,Suburban,'Brentwood Middle',Grades,0.666667,0.333333,0,4
+girl,1,0.666667,White,Urban,'Westdale Middle',Popular,0.666667,0,0.333333,4
+girl,1,0.666667,White,Suburban,'Brentwood Middle',Grades,0.666667,1,0,2
+boy,0.5,0.666667,White,Suburban,'Brentwood Elementary',Popular,1,0.333333,0,3
+girl,0,0.333333,White,Rural,Ridge,Popular,0.333333,1,0,3
+boy,0,0.333333,White,Urban,Portage,Grades,0,0.333333,0.666667,4
+girl,0.5,0.666667,White,Rural,Ridge,Grades,0,0.666667,0.333333,4
+girl,0,0.333333,White,Urban,Portage,Grades,0.666667,0.333333,0,4
+boy,0.5,0.5,White,Suburban,'Brentwood Elementary',Grades,0.333333,0,0.666667,4
+girl,1,0.666667,White,Rural,'Brown Middle',Grades,0.333333,0.666667,0,4
+boy,1,0.833333,White,Rural,'Brown Middle',Popular,1,0.333333,0.666667,1
+girl,1,0.666667,White,Suburban,'Brentwood Middle',Grades,1,0,0.333333,3
+girl,0,0.5,White,Urban,Portage,Grades,0.666667,0,0.333333,4
+boy,0.5,0.666667,White,Rural,Sand,Grades,1,0.333333,0.666667,1
+girl,0.5,0.5,White,Urban,Main,Grades,1,0,0.333333,3
+boy,0.5,0.5,White,Suburban,'Brentwood Elementary',Grades,0.333333,0,1,3
+girl,0.5,0.5,White,Urban,Portage,Popular,0.333333,1,0,3
+girl,1,0.666667,White,Rural,'Brown Middle',Popular,0.666667,1,0,2
+girl,0.5,0.5,White,Rural,Sand,Grades,0,0.333333,0.666667,4
+girl,0,0.333333,White,Suburban,'Brentwood Elementary',Grades,1,0.333333,0,3
+girl,1,0.666667,White,Urban,'Westdale Middle',Popular,0.666667,0.333333,0,4
+girl,0,0.333333,White,Rural,Ridge,Sports,0.666667,0.333333,0,4
+boy,1,0.666667,White,Rural,'Brown Middle',Popular,1,0.333333,0,3
+boy,0.5,0.5,Other,Urban,Main,Grades,0,0.333333,0.666667,4
+boy,1,0.833333,White,Suburban,'Brentwood Middle',Sports,0.666667,0,0.333333,4
+girl,0,0.333333,White,Urban,Main,Grades,0.333333,0,0.666667,4
+boy,1,0.666667,White,Rural,'Brown Middle',Sports,0.333333,0,0.666667,4
+boy,0.5,0.666667,White,Suburban,'Brentwood Elementary',Grades,0.333333,0,0.666667,4
+girl,0.5,0.5,White,Rural,Sand,Popular,0.333333,0.666667,0,4
+boy,0.5,0.5,White,Suburban,'Brentwood Elementary',Popular,1,0.333333,0,3
+boy,0.5,0.666667,White,Urban,Main,Grades,0,0.333333,0.666667,4
+boy,0.5,0.5,White,Rural,Ridge,Sports,0,0.333333,1,3
+boy,1,0.666667,White,Rural,'Brown Middle',Grades,0.666667,0,1,2
+boy,1,0.833333,White,Suburban,'Brentwood Middle',Grades,1,0,0.333333,3
+girl,1,0.666667,Other,Urban,'Westdale Middle',Sports,1,0,0.333333,3
+boy,1,0.666667,White,Rural,'Brown Middle',Sports,0.666667,0,0.333333,4
+boy,0.5,0.5,White,Rural,Ridge,Sports,0.666667,0,0.333333,4
+boy,1,0.833333,White,Suburban,'Brentwood Middle',Grades,0.333333,0,1,3
+girl,1,0.666667,White,Suburban,'Brentwood Middle',Grades,1,0.333333,0,3
+girl,1,0.833333,White,Rural,'Brown Middle',Sports,0.333333,0,0.666667,4

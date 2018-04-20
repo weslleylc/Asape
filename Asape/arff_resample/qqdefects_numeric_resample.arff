@@ -1,0 +1,66 @@
+@relation qqdefects.arff-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute S1 {H,L,VH,M}
+@attribute S2 {M,H,L,VH}
+@attribute S3 {VH,M,H}
+@attribute S4 {H,L,M,VL}
+@attribute S5 {M,H,L,VH}
+@attribute S6 {H,VH,L,M}
+@attribute S7 {L,H,M,VH,VL}
+@attribute F1 {M,L,H,VH}
+@attribute F2 {L,VL,H,M,VH}
+@attribute F3 {M,VH,H}
+@attribute D1 {L,H,M,VH,VL}
+@attribute D2 {H,VH,M,VL,L}
+@attribute D3 {H,L,M,VH}
+@attribute D4 {H,VH,M}
+@attribute T1 {M,H,VL}
+@attribute T2 {H,VL,M,VH,L}
+@attribute T3 {L,H,VL,M,VH}
+@attribute T4 {H,L,M}
+@attribute P1 {VH,H,L,M}
+@attribute P2 {H,VH,M}
+@attribute P3 {H,VL,VH,M,L}
+@attribute P4 {L,M,VL,H}
+@attribute P5 {H,VH,M}
+@attribute P6 {M,VH,H}
+@attribute P7 {M,L,H}
+@attribute P8 {VH,H,M}
+@attribute P9 {H,VH,M}
+@attribute E numeric
+@attribute K numeric
+@attribute L {C,VC++MFC}
+@attribute TD numeric
+
+@data
+L,L,M,M,M,M,L,M,M,VH,H,M,L,H,H,M,M,H,H,H,M,H,H,H,?,H,H,0.510524,0.27934,C,184
+M,H,H,H,H,VH,VL,VH,VH,H,M,H,H,H,H,H,M,M,VH,M,H,H,VH,VH,?,VH,H,0.58948,1,C,1906
+H,VH,VH,H,VH,M,VH,L,L,M,H,VH,VH,H,H,VH,VH,H,VH,VH,VH,L,VH,VH,?,VH,VH,0.016777,0.01022,VC++MFC,17
+M,M,H,M,H,L,H,M,L,M,H,H,M,M,H,M,M,M,M,H,H,VL,H,H,?,H,H,0.142615,0.031736,C,53
+M,H,?,H,M,M,M,H,VL,H,M,H,M,H,VL,M,H,L,M,M,M,M,M,M,M,H,H,0.106244,0.143244,C,546
+H,M,H,M,M,M,L,H,H,H,VH,M,M,H,H,H,M,M,H,H,H,L,H,H,?,M,H,0.229268,0.117289,C,90
+VH,M,VH,M,H,?,H,M,M,VH,M,H,M,M,H,?,M,M,H,H,H,M,M,VH,L,VH,H,0.154362,0.084917,C,167
+VH,M,M,L,M,H,L,H,H,H,H,H,H,H,M,M,L,M,M,H,H,VL,H,M,H,M,M,0.458207,0.312372,C,129
+H,H,VH,H,M,H,H,L,VL,M,L,H,H,H,H,H,L,H,VH,H,H,L,H,M,?,VH,H,0,0,C,31
+H,M,H,M,H,H,H,H,H,H,H,H,H,H,H,H,M,M,H,H,H,VL,H,H,?,M,M,0.244613,0.022514,C,71
+H,H,H,H,H,H,H,VH,H,H,H,H,H,H,H,H,H,H,H,H,H,?,H,H,?,H,H,0.610473,0.372015,C,672
+H,H,VH,H,H,M,VH,L,L,M,H,H,H,H,H,H,H,H,M,H,H,L,VH,VH,?,H,H,0.012677,0.000668,C,5
+M,H,VH,H,L,M,M,H,VH,VH,L,H,H,H,H,H,H,H,H,H,H,H,H,M,?,H,H,1,0.389513,C,680
+H,M,H,M,H,?,M,H,H,VH,L,M,H,H,M,M,L,M,H,H,H,M,M,H,L,VH,M,0.15423,0.084917,C,373
+H,H,H,H,H,VH,VL,H,H,M,H,H,H,H,M,H,M,M,VH,M,H,M,VH,VH,?,VH,H,0.637437,0.992223,C,1768
+M,M,M,H,M,H,L,M,M,H,M,H,H,M,H,M,M,M,H,H,M,L,M,H,?,VH,H,0.447681,0.635782,C,1597
+H,L,VH,M,M,M,L,VH,VH,VH,M,L,H,H,M,M,M,M,H,M,L,L,M,M,?,H,M,0.13804,0.227494,C,881
+H,H,H,M,L,M,M,L,M,VH,H,H,H,H,H,H,H,H,H,H,H,H,H,H,?,H,H,0.33101,0.136763,C,196
+M,M,H,M,H,H,H,M,H,M,L,M,M,M,M,L,H,M,L,M,M,L,H,H,L,H,M,0.006338,?,C,261
+L,L,M,VL,L,M,VL,VH,H,VH,VL,VL,L,H,VL,VL,VH,H,H,M,L,H,H,M,?,H,H,0.974662,0.318225,C,928
+H,M,VH,H,M,H,L,M,L,M,L,H,H,H,M,H,L,H,VH,H,H,L,H,M,?,VH,H,0.110098,0.033201,C,148
+H,H,VH,H,H,VH,H,H,H,VH,H,VH,H,VH,H,H,H,H,H,VH,H,?,VH,VH,?,VH,VH,0.32004,0.343227,C,209
+H,M,VH,H,M,M,VH,M,M,H,VH,VH,H,H,H,VH,VH,H,M,H,H,L,VH,VH,?,H,H,0.046613,0.065475,C,91
+H,H,H,M,H,M,H,M,L,M,H,H,H,H,H,M,M,M,H,H,H,VL,H,H,?,M,H,0.058875,0.025573,C,29
+L,M,VH,H,H,L,M,L,VL,M,M,VH,H,H,H,M,M,H,H,H,VH,VL,VH,VH,?,H,VH,0.238772,0.130283,C,204
+L,L,M,L,L,L,L,M,L,M,L,M,L,M,VL,VL,VL,L,L,M,VL,L,M,M,M,H,M,0.108147,?,C,228
+VH,H,M,L,H,H,M,L,VL,M,M,M,H,H,M,L,L,H,M,M,M,M,M,H,?,H,M,0.23482,0.208052,C,688
+H,H,H,H,H,H,M,L,VL,M,H,H,H,H,M,H,M,M,VH,M,H,M,VH,VH,?,VH,H,0.110329,0.167029,C,109
+H,M,VH,M,M,VH,M,H,VH,VH,M,L,M,H,M,M,M,M,H,M,L,L,M,H,H,H,M,0.252319,0.331186,C,412
+H,M,H,H,H,H,M,H,H,H,H,H,H,H,H,M,M,H,M,H,H,L,H,H,?,H,H,0.210291,0.558012,C,476
+?,H,H,M,M,H,M,M,M,H,H,H,H,H,M,H,M,M,H,H,H,H,VH,VH,?,VH,VH,0.272988,0.208052,C,653

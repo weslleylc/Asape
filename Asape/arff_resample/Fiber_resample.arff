@@ -1,0 +1,57 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Cracker {bran,combo,control,gum}
+@attribute Diet numeric
+@attribute Subject numeric
+@attribute Digested numeric
+@attribute Bloat {high,low,med,none}
+
+@data
+gum,0.333333,0.909091,0.041164,low
+control,0,0.636364,0.516923,med
+gum,0.333333,0.454545,0.20915,high
+combo,0.666667,0.363636,0.490306,high
+control,0,1,0.43312,low
+control,0,0.363636,0.2584,low
+gum,0.333333,0.272727,0.815965,high
+bran,1,0.363636,0.505567,low
+control,0,0.909091,0.236369,none
+combo,0.666667,0.181818,0.283586,low
+gum,0.333333,0.727273,0.14934,high
+bran,1,0,0.364216,low
+combo,0.666667,0.090909,0.457838,none
+bran,1,0.727273,0.581479,med
+combo,0.666667,0,0.547438,low
+combo,0.666667,0.545455,0.708311,low
+combo,0.666667,0.818182,0.580763,low
+control,0,0.818182,0.640361,none
+control,0,0.454545,0,none
+control,0,0.545455,0.911875,low
+bran,1,0.636364,0.569593,none
+gum,0.333333,1,0.469688,med
+gum,0.333333,0.818182,0.705368,high
+combo,0.666667,0.727273,0.430098,med
+combo,0.666667,1,0.501767,med
+gum,0.333333,0,0.346091,med
+combo,0.666667,0.454545,0.051318,low
+control,0,0.272727,0.722397,none
+gum,0.333333,0.090909,0.61499,none
+bran,1,0.909091,0.325103,none
+bran,1,0.272727,0.029905,none
+control,0,0.727273,0.22359,low
+gum,0.333333,0.181818,0.333233,low
+control,0,0,0.634449,med
+gum,0.333333,0.363636,0.273246,med
+gum,0.333333,0.636364,0.324723,high
+gum,0.333333,0.545455,0.538848,none
+combo,0.666667,0.909091,0.443486,med
+bran,1,0.454545,0.063681,low
+bran,1,0.181818,0.103705,low
+combo,0.666667,0.636364,0.185131,high
+bran,1,0.545455,1,none
+bran,1,0.090909,0.806386,none
+control,0,0.090909,0.844695,none
+bran,1,0.818182,0.638152,none
+control,0,0.181818,0.121565,none
+combo,0.666667,0.272727,0.345261,none
+bran,1,1,0.576398,none

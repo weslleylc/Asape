@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/wesll/Documents/Estudos/Fog Computer/weka-3-8-0-monolithic.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wesll/Documents/Estudos/jamm-0.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wesll/Documents/Estudos/Fog Computer/jmh-core-1.19.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/wesll/eclipse-workspace/Asape/jar/javasysmon-0.3.5.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

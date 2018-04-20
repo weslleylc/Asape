@@ -1,0 +1,27 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute County {Atlantic,Bergen,Burlington,Camden,'Cape May',Cumberland,Essex,Gloucester,Hudson,Hunterdon,Mercer,Middlesex,Monmouth,Morris,Ocean,Passaic,Salem,Somerset,Sussex,Union,Warren}
+@attribute Area numeric
+
+@data
+Bergen,234
+Warren,362
+Gloucester,329
+Passaic,192
+Sussex,527
+Atlantic,569
+Essex,130
+Middlesex,312
+Salem,365
+Morris,468
+Cumberland,500
+Union,103
+Hunterdon,423
+Somerset,307
+Hudson,47
+Mercer,228
+Camden,221
+Burlington,819
+Ocean,642
+Monmouth,476
+'Cape May',267

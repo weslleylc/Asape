@@ -1,0 +1,27 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Education {'College,1-3 years','College,4 or more years','Completed high school','Did not complete high school'}
+@attribute Age_Group {25-34,35-44,45-54,55-64,>64}
+@attribute Count numeric
+
+@data
+'Completed high school',55-64,8795
+'Completed high school',>64,7558
+'Did not complete high school',>64,13746
+'Did not complete high school',35-44,5030
+'College,4 or more years',35-44,7596
+'Did not complete high school',25-34,5416
+'Did not complete high school',55-64,7606
+'College,4 or more years',45-54,3904
+'College,1-3 years',35-44,5576
+'College,1-3 years',55-64,2524
+'College,4 or more years',55-64,3109
+'College,4 or more years',>64,2483
+'Completed high school',35-44,1855
+'College,1-3 years',25-34,8555
+'Completed high school',25-34,16431
+'College,4 or more years',25-34,9771
+'College,1-3 years',45-54,3124
+'College,1-3 years',>64,2503
+'Did not complete high school',45-54,5777
+'Completed high school',45-54,9435

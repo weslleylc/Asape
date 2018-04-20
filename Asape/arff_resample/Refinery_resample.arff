@@ -1,0 +1,47 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute CO numeric
+@attribute source {BAAQMD,refinery}
+@attribute date {10/4/90,12/10/91,12/3/91,3/30/93,4/16/93,4/17/93,4/18/93,4/19/93,4/20/93,4/21/93,4/22/93,4/23/93,4/24/93,4/25/93,4/26/93,4/27/93,4/28/93,4/29/93,4/30/93,5/1/93,5/10/93,5/11/93,5/12/93,5/13/93,5/14/93,5/15/93,5/16/93,5/2/93,5/3/93,5/4/93,5/5/93,5/6/93,5/7/92,5/7/93,5/8/93,5/9/93,8/6/92,9/10/92,9/11/90,9/22/92}
+
+@data
+0.192771,refinery,5/4/93
+0.23494,refinery,5/6/93
+0.066265,BAAQMD,9/10/92
+0.051205,BAAQMD,9/11/90
+0.180723,refinery,4/27/93
+0.246988,refinery,4/16/93
+0.825301,refinery,5/12/93
+0.096386,BAAQMD,12/10/91
+0.325301,refinery,5/3/93
+0.204819,refinery,4/18/93
+0.355422,refinery,4/20/93
+0.325301,refinery,4/26/93
+0.066265,BAAQMD,3/30/93
+0.126506,BAAQMD,5/7/92
+0.289157,refinery,5/8/93
+0,BAAQMD,12/3/91
+0.216867,refinery,5/11/93
+0.493976,refinery,4/23/93
+0.487952,refinery,5/13/93
+0.307229,refinery,4/29/93
+0.590361,refinery,5/7/93
+0.325301,refinery,4/30/93
+0.198795,refinery,4/28/93
+0.228916,refinery,4/19/93
+0.156627,refinery,5/9/93
+0.331325,refinery,5/5/93
+0.945783,refinery,5/14/93
+0.493976,refinery,5/15/93
+0.23494,refinery,4/21/93
+0.355422,refinery,4/25/93
+0.403614,refinery,5/16/93
+0.10241,refinery,5/10/93
+1,BAAQMD,8/6/92
+0.590361,refinery,4/22/93
+0.096386,BAAQMD,9/22/92
+0.572289,refinery,4/24/93
+0.427711,refinery,5/2/93
+0.156627,refinery,4/17/93
+0.096386,BAAQMD,10/4/90
+0.89759,refinery,5/1/93

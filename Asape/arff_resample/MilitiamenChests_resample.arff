@@ -1,0 +1,22 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Count numeric
+@attribute Chest numeric
+
+@data
+0.609462,42
+0.002783,47
+1,40
+0.693878,38
+0.074212,35
+0.994434,39
+0.01577,34
+0.084416,44
+0.170686,36
+0.018553,46
+0.001855,33
+0,48
+0.342301,43
+0.045455,45
+0.388683,37
+0.865492,41

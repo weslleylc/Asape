@@ -1,0 +1,71 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Dataset {accident,shopping,traffic}
+@attribute Year numeric
+@attribute Dates {December,July,March,November,October,September}
+@attribute 6th numeric
+@attribute 13th numeric
+@attribute Location {7_to_8,9_to_10,Chichester,Crystal_Palace,Dorking,East_Grinstead,Epsom,Guildford,Horsham,Lewisham,Nine_Elms,SWTRHA_hospital}
+
+@data
+traffic,0.666667,September,0.9604,0.951604,9_to_10
+shopping,0.666667,December,0.028906,0.028309,East_Grinstead
+shopping,1,March,0.043894,0.046252,Lewisham
+shopping,0.333333,July,0.03547,0.035209,Epsom
+shopping,0.333333,July,0.046674,0.047956,Nine_Elms
+traffic,0.333333,July,1,1,7_to_8
+shopping,1,March,0.032799,0.033195,Epsom
+shopping,0.666667,September,0.026364,0.026389,Horsham
+shopping,0.666667,September,0.046056,0.046151,Nine_Elms
+accident,0.666667,December,0.000057,0.000043,SWTRHA_hospital
+traffic,0.666667,December,0.887291,0.877967,7_to_8
+traffic,1,March,0.89504,0.867919,9_to_10
+shopping,0.666667,December,0.026601,0.027558,Horsham
+traffic,0.333333,July,0.962411,0.959291,9_to_10
+shopping,0.333333,July,0.029301,0.030842,Crystal_Palace
+shopping,1,March,0.038027,0.039432,Chichester
+accident,0.333333,July,0.000022,0.000058,SWTRHA_hospital
+shopping,1,November,0.026465,0.026064,Horsham
+shopping,1,March,0.029955,0.030272,Crystal_Palace
+shopping,0.666667,December,0.025567,0.025624,Dorking
+shopping,0.666667,September,0.029474,0.031254,Crystal_Palace
+shopping,1,November,0.037316,0.036725,Chichester
+shopping,0.666667,December,0.034486,0.034502,Epsom
+shopping,0.333333,July,0.051241,0.049313,Lewisham
+shopping,0.666667,September,0.038523,0.03837,Chichester
+accident,1,November,0.000014,0.000058,SWTRHA_hospital
+shopping,0.666667,December,0.046099,0.046909,Nine_Elms
+shopping,0.666667,December,0.042142,0.040839,Guildford
+shopping,1,March,0.043255,0.044448,Guildford
+accident,1,March,0,0,SWTRHA_hospital
+shopping,1,March,0.026472,0.02662,East_Grinstead
+traffic,0.666667,September,0.984265,0.981739,7_to_8
+shopping,1,November,0.032339,0.033383,Epsom
+shopping,1,November,0.050415,0.050908,Nine_Elms
+shopping,0.666667,December,0.035521,0.035772,Chichester
+shopping,0.666667,December,0.029912,0.029204,Crystal_Palace
+shopping,0.666667,September,0.028375,0.028583,East_Grinstead
+shopping,0.666667,September,0.027262,0.026533,Dorking
+shopping,0.666667,December,0.04676,0.047285,Lewisham
+accident,0.666667,September,0.000057,0.000072,SWTRHA_hospital
+shopping,0.666667,September,0.047148,0.045899,Lewisham
+shopping,1,November,0.038221,0.043993,Lewisham
+shopping,1,March,0.04844,0.048447,Nine_Elms
+shopping,0.333333,July,0.029718,0.031651,Horsham
+traffic,0.666667,December,0.869961,0.856905,9_to_10
+shopping,0.333333,July,0.048484,0.050482,Guildford
+shopping,0.333333,July,0.04128,0.043228,Chichester
+shopping,1,November,0.040742,0.040861,Guildford
+shopping,1,November,0.028131,0.027782,East_Grinstead
+shopping,0.333333,July,0.026443,0.027746,Dorking
+traffic,1,March,0.921339,0.906052,7_to_8
+shopping,1,March,0.02607,0.026894,Horsham
+shopping,1,November,0.029273,0.029601,Crystal_Palace
+shopping,1,March,0.026357,0.026504,Dorking
+shopping,0.333333,July,0.030616,0.032683,East_Grinstead
+shopping,1,November,0.025531,0.026049,Dorking
+traffic,1,November,0.84443,0.846366,9_to_10
+traffic,1,November,0.894882,0.886116,7_to_8
+shopping,0.666667,September,0.035133,0.034155,Epsom
+accident,0,October,0.000043,0.000065,SWTRHA_hospital
+shopping,0.666667,September,0.048125,0.048382,Guildford

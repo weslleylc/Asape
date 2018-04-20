@@ -1,0 +1,56 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Fat_Content numeric
+@attribute Lab {I,II,III,IV,V,VI}
+@attribute Technician numeric
+@attribute Sample {G,H}
+
+@data
+0.189189,VI,1,G
+0.418919,III,1,G
+0.418919,III,0,H
+0.540541,III,0,G
+0.418919,VI,0,G
+0.472973,V,1,H
+0.459459,IV,1,G
+0.364865,II,0,H
+0.162162,VI,1,G
+0.405405,V,1,G
+0.662162,I,0,G
+0.432432,III,0,G
+0.243243,I,0,H
+0.837838,I,1,G
+0.337838,IV,1,H
+1,I,1,G
+0.459459,II,1,G
+0.378378,I,0,H
+0.189189,V,1,H
+0.310811,II,1,H
+0.486486,III,1,G
+0.445946,V,0,G
+0.5,IV,1,H
+0.5,VI,0,G
+0.756757,I,0,G
+0.554054,IV,0,G
+0.391892,V,0,G
+0.418919,V,0,H
+0.635135,IV,0,H
+0.324324,II,0,G
+0,VI,1,H
+0.364865,V,0,H
+0.945946,I,1,H
+0.297297,VI,0,H
+0.527027,III,1,H
+0.797297,I,1,H
+0.418919,IV,1,G
+0.405405,VI,0,H
+0.162162,II,1,H
+0.27027,VI,1,H
+0.648649,III,1,H
+0.486486,V,1,G
+0.351351,IV,0,H
+0.283784,III,0,H
+0.5,II,0,H
+0.162162,IV,0,G
+0.459459,II,0,G
+0.445946,II,1,G

@@ -1,0 +1,18 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Region {'East Anglia','East Midlands',North,Northeast,'Northern Ireland',Scotland,Southeast,Southwest,Wales,'West Midlands',Yorkshire}
+@attribute Alcohol numeric
+@attribute Tobacco numeric
+
+@data
+'East Midlands',0.355102,3.34
+Wales,0.510204,3.53
+Northeast,0.885714,3.77
+Yorkshire,0.861224,3.76
+'Northern Ireland',0,4.56
+'East Anglia',0.204082,2.92
+North,1,4.03
+Scotland,0.840816,4.51
+Southwest,0.314286,2.71
+Southeast,0.763265,3.2
+'West Midlands',0.657143,3.47

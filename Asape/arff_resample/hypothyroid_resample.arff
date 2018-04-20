@@ -1,0 +1,134 @@
+@relation hypothyroid-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute age numeric
+@attribute sex {F,M}
+@attribute 'on thyroxine' {f,t}
+@attribute 'query on thyroxine' {f,t}
+@attribute 'on antithyroid medication' {f,t}
+@attribute sick {f,t}
+@attribute pregnant {f,t}
+@attribute 'thyroid surgery' {f,t}
+@attribute 'I131 treatment' {f,t}
+@attribute 'query hypothyroid' {f,t}
+@attribute 'query hyperthyroid' {f,t}
+@attribute lithium {f,t}
+@attribute goitre {f,t}
+@attribute tumor {f,t}
+@attribute hypopituitary {f,t}
+@attribute psych {f,t}
+@attribute 'TSH measured' {t,f}
+@attribute TSH numeric
+@attribute 'T3 measured' {t,f}
+@attribute T3 numeric
+@attribute 'TT4 measured' {t,f}
+@attribute TT4 numeric
+@attribute 'T4U measured' {t,f}
+@attribute T4U numeric
+@attribute 'FTI measured' {t,f}
+@attribute FTI numeric
+@attribute 'TBG measured' {f}
+@attribute TBG numeric
+@attribute 'referral source' {SVHC,other,SVI,STMW,SVHD}
+@attribute Class {negative,compensated_hypothyroid,primary_hypothyroid,secondary_hypothyroid}
+
+@data
+0.061674,F,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,0.00116,t,0.35545,t,0.488318,t,0.78744,t,0.279898,f,?,STMW,negative
+0.176211,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.002443,t,0.146919,t,0.214953,t,0.2657,t,0.29771,f,?,other,negative
+0.088106,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.001311,t,0.203791,t,0.238318,t,0.371981,t,0.254453,f,?,SVHC,negative
+0.138767,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.006594,t,0.165877,t,0.163551,t,0.294686,t,0.208651,f,?,SVI,negative
+0.055066,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.011689,f,?,t,0.196262,t,0.31401,t,0.236641,f,?,other,compensated_hypothyroid
+0.061674,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.003009,t,0.241706,t,0.203271,t,0.352657,t,0.226463,f,?,other,negative
+0.132159,M,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,0,t,0.21327,t,0.252336,t,0.36715,t,0.272265,f,?,other,negative
+0.129956,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.006972,t,0.175355,t,0.264019,t,0.396135,t,0.267176,f,?,other,negative
+0.151982,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.002821,t,0.023697,t,0.179907,t,0.2657,t,0.244275,f,?,SVI,negative
+0.044053,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.009613,f,?,t,0.198598,t,0.309179,t,0.244275,f,?,other,negative
+0.136564,?,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.005462,t,0.298578,f,?,f,?,f,?,f,?,other,negative
+0.070485,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.001877,t,0.127962,t,0.200935,t,0.256039,t,0.282443,f,?,SVHC,negative
+0.134361,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,?,f,?,f,?,f,?,f,?,f,?,other,negative
+0.136564,?,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,?,f,?,f,?,f,?,f,?,f,?,other,negative
+0.127753,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.003764,t,0.222749,t,0.214953,t,0.342995,t,0.244275,f,?,SVHC,negative
+0.15859,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.007349,t,0.080569,t,0.140187,t,0.140097,t,0.287532,f,?,SVI,negative
+0.154185,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.005085,t,0.109005,t,0.245327,t,0.410628,t,0.24173,f,?,other,negative
+0.11674,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.003953,t,0.184834,t,0.21028,t,0.362319,t,0.229008,f,?,SVI,negative
+0.127753,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.000179,t,0.232227,t,0.228972,t,0.352657,t,0.256997,f,?,other,negative
+0.105727,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.002255,f,?,t,0.198598,t,0.318841,t,0.236641,f,?,other,negative
+0.046256,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.003953,t,0.21327,t,0.184579,t,0.36715,t,0.198473,f,?,SVHC,negative
+0.15859,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.002255,t,0.21327,t,0.168224,f,?,f,?,f,?,other,negative
+0.156388,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.003009,t,0.203791,t,0.198598,t,0.444444,t,0.183206,f,?,other,negative
+0.096916,M,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.003953,f,?,t,0.212617,t,0.439614,t,0.198473,f,?,other,negative
+0.057269,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.00433,t,0.175355,t,0.214953,t,0.386473,t,0.221374,f,?,other,negative
+0.04185,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.000019,t,0.450237,t,0.046729,f,?,f,?,f,?,SVI,negative
+0.068282,M,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,0.001877,t,0.222749,t,0.278037,t,0.458937,t,0.251908,f,?,other,negative
+0.070485,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,?,f,?,f,?,f,?,f,?,f,?,other,negative
+0.057269,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.002632,t,0.184834,t,0.212617,t,0.318841,t,0.254453,f,?,SVI,negative
+0.052863,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.00016,t,0.203791,t,0.418224,t,0.47343,t,0.368957,f,?,other,negative
+0.070485,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,?,f,?,t,0.198598,t,0.294686,t,0.251908,f,?,other,negative
+0.061674,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,?,t,0.127962,t,0.172897,t,0.154589,t,0.330789,f,?,other,negative
+0.110132,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.006217,t,0.175355,t,0.21028,t,0.328502,t,0.244275,f,?,other,negative
+0.136564,?,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,?,f,?,f,?,f,?,f,?,f,?,other,negative
+0.123348,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,?,f,?,f,?,f,?,f,?,f,?,other,negative
+0.180617,?,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0.003198,t,0.137441,t,0.221963,t,0.352657,t,0.246819,f,?,other,negative
+0.096916,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.003576,t,0.232227,t,0.261682,t,0.36715,t,0.282443,f,?,other,negative
+0.099119,M,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.002066,t,0.270142,t,0.287383,t,0.371981,t,0.305344,f,?,SVHC,negative
+0.085903,F,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,?,f,?,f,?,f,?,f,?,f,?,other,negative
+0.0837,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.002632,t,0.222749,t,0.257009,t,0.376812,t,0.272265,f,?,other,negative
+0.0837,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.001028,f,?,t,0.189252,t,0.381643,t,0.198473,f,?,other,negative
+0.070485,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.004896,t,0.118483,t,0.203271,t,0.31401,t,0.244275,f,?,SVHC,negative
+0.14978,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.0015,t,0.052133,t,0.186916,t,0.101449,t,0.450382,f,?,SVI,negative
+0.0837,F,f,f,f,f,f,f,f,t,t,f,f,f,f,f,t,0.003764,t,0.21327,t,0.233645,t,0.439614,t,0.21883,f,?,other,negative
+0.088106,F,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,0.000557,t,0.175355,t,0.268692,t,0.400966,t,0.26972,f,?,SVHC,negative
+0.121145,F,f,f,f,t,f,f,f,f,f,f,f,t,f,f,t,0.000368,t,0.232227,t,0.317757,t,0.434783,t,0.29771,f,?,SVI,negative
+0.101322,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.001123,t,0.184834,t,0.327103,t,0.362319,t,0.356234,f,?,SVI,negative
+0.121145,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.001689,t,0.222749,t,0.226636,t,0.463768,t,0.203562,f,?,other,negative
+0.081498,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.013387,f,?,t,0.299065,t,0.352657,t,0.330789,f,?,other,negative
+0.160793,F,t,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.052821,f,?,t,0.168224,t,0.376812,t,0.178117,f,?,other,negative
+0.059471,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.004142,t,0.175355,t,0.196262,t,0.391304,t,0.201018,f,?,SVHC,negative
+0.140969,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.008859,t,0.146919,t,0.163551,t,0.289855,t,0.211196,f,?,other,negative
+0.026432,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.005085,t,0.260664,t,0.252336,t,0.410628,t,0.249364,f,?,other,negative
+0.123348,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.004142,f,?,t,0.228972,t,0.362319,t,0.249364,f,?,other,negative
+0.03304,F,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0.011689,f,?,t,0.247664,t,0.429952,t,0.234097,f,?,other,compensated_hypothyroid
+0.11674,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,?,f,?,f,?,f,?,f,?,f,?,other,negative
+0.136564,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.010557,t,0.203791,t,0.226636,t,0.371981,t,0.24173,f,?,SVI,negative
+0.077093,M,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,0.000462,t,0.165877,t,0.285047,t,0.241546,t,0.417303,f,?,SVI,negative
+0.103524,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.001387,t,0.270142,t,0.228972,t,0.391304,t,0.236641,f,?,other,negative
+0.11674,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.000368,f,?,t,0.231308,t,0.188406,t,0.396947,f,?,other,negative
+0.079295,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.009613,t,0.232227,t,0.191589,t,0.386473,t,0.198473,f,?,SVHC,negative
+0.070485,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.005462,t,0.203791,t,0.219626,t,0.376812,t,0.231552,f,?,STMW,negative
+0.127753,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.001689,t,0.184834,t,0.200935,f,?,f,?,f,?,other,negative
+0.123348,F,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,?,f,?,f,?,f,?,f,?,f,?,other,negative
+0.092511,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.000368,t,0.175355,t,0.224299,t,0.309179,t,0.274809,f,?,SVHC,negative
+0.154185,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.006783,t,0.156398,t,0.203271,t,0.381643,t,0.21374,f,?,other,negative
+0.169604,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.000934,t,0.175355,t,0.184579,t,0.280193,t,0.244275,f,?,SVI,negative
+0.055066,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.004896,t,0.184834,t,0.254673,t,0.2657,t,0.346056,f,?,other,negative
+0.052863,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.445278,t,0.014218,t,0.03271,t,0.333333,t,0.038168,f,?,other,primary_hypothyroid
+0.129956,?,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.001689,t,0.222749,t,0.254673,t,0.42029,t,0.246819,f,?,other,negative
+0.046256,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.003576,t,0.194313,t,0.172897,t,0.26087,t,0.239186,f,?,other,negative
+0.121145,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0,f,?,t,0.392523,t,0.342995,t,0.445293,f,?,other,negative
+0.11674,F,f,f,f,t,f,f,f,t,f,f,f,f,f,f,t,0.001613,t,0.156398,t,0.224299,t,0.342995,t,0.254453,f,?,SVI,negative
+0.081498,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.001066,t,0.118483,t,0.359813,t,0.550725,t,0.279898,f,?,SVHC,negative
+0.162996,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.008481,t,0.099526,t,0.303738,t,0.36715,t,0.328244,f,?,SVI,negative
+0.072687,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.002255,t,0.146919,t,0.235981,t,0.231884,t,0.356234,f,?,SVI,negative
+0.066079,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.005651,t,0.194313,t,0.196262,t,0.357488,t,0.21374,f,?,STMW,negative
+0.145374,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.000179,t,0.194313,t,0.219626,t,0.36715,t,0.236641,f,?,SVI,negative
+0.04185,?,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.003009,t,0.127962,t,0.219626,f,?,f,?,f,?,SVI,negative
+0.127753,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.001538,t,0.127962,t,0.207944,t,0.347826,t,0.234097,f,?,other,negative
+0.189427,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.004142,t,0.080569,t,0.242991,t,0.323671,t,0.287532,f,?,SVI,negative
+0.066079,M,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,?,f,?,f,?,f,?,f,?,f,?,other,negative
+0.077093,F,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,0.001689,t,0.260664,t,0.28972,t,0.502415,t,0.244275,f,?,other,negative
+0.096916,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.002632,t,0.194313,t,0.228972,t,0.338164,t,0.264631,f,?,other,negative
+0.046256,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.000934,t,0.156398,t,0.189252,t,0.294686,t,0.24173,f,?,other,negative
+0.066079,F,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,?,t,0.270142,t,0.366822,t,0.570048,t,0.277354,f,?,other,negative
+0.125551,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.004142,t,0.194313,t,0.261682,t,0.333333,t,0.302799,f,?,SVI,negative
+0.048458,F,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,0.00867,f,?,t,0.36215,t,0.705314,t,0.229008,f,?,STMW,negative
+0.070485,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.002821,t,0.194313,t,0.238318,t,0.289855,t,0.305344,f,?,other,negative
+0.077093,F,f,f,f,f,t,f,f,f,f,f,f,t,f,f,t,0.000066,f,?,t,0.343458,t,0.676329,t,0.223919,f,?,other,negative
+0.055066,F,f,t,f,f,t,f,f,f,f,f,f,f,f,f,t,0.002255,t,0.374408,t,0.38785,t,0.637681,t,0.264631,f,?,other,negative
+0.096916,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.013953,t,0.127962,t,0.247664,t,0.400966,t,0.249364,f,?,SVI,compensated_hypothyroid
+0.077093,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.004519,t,0.2891,t,0.306075,t,0.618357,t,0.216285,f,?,STMW,negative
+0.145374,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.002443,t,0.222749,t,0.198598,t,0.405797,t,0.198473,f,?,other,negative
+0.134361,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.000557,t,0.184834,t,0.203271,t,0.309179,t,0.246819,f,?,other,negative
+0.156388,F,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0.001311,t,0.127962,t,0.252336,t,0.304348,t,0.310433,f,?,SVI,negative
+0.07489,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.000934,t,0.203791,t,0.203271,f,?,f,?,f,?,other,negative
+0.090308,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.000368,t,0.175355,t,0.348131,t,0.352657,t,0.386768,f,?,SVHC,negative
+0.143172,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.002066,f,?,t,0.268692,t,0.400966,t,0.26972,f,?,other,negative
+0.127753,M,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,0.009236,t,0.127962,t,0.219626,t,0.304348,t,0.272265,f,?,SVI,negative

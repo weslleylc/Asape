@@ -1,0 +1,25 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Weight numeric
+@attribute School {Cambridge,Oxford}
+@attribute Rowers numeric
+
+@data
+0.814286,Cambridge,1
+0.904762,Oxford,1
+0.704762,Cambridge,1
+0.9,Cambridge,1
+0.733333,Cambridge,1
+0.733333,Oxford,1
+1,Cambridge,1
+0.890476,Oxford,1
+0.757143,Cambridge,1
+0.704762,Oxford,1
+0.719048,Oxford,1
+0.004762,Oxford,0
+0.661905,Cambridge,1
+0.619048,Oxford,1
+0,Cambridge,0
+0.72381,Cambridge,1
+0.719048,Oxford,1
+0.82381,Oxford,1

@@ -1,0 +1,62 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute School {Amherst,Barnard,Bates,Berkeley,Bowdoin,Brown,'Bryn Mawr','Cal Tech',Carleton,'Carnegie Mellon','Claremont McKenna',Colby,Colgate,Columbia,Cornell,Dartmouth,Davidson,Duke,Georgetown,Grinnell,Hamilton,Harvard,Haverford,'Johns Hopkins',MIT,Middlebury,'Mount Holyoke',Northwestern,Oberlin,Occidental,Pomona,Princeton,Rice,Smith,Stanford,Swarthmore,'U Michican','U Penn','U Va.','U of Chicago','U of Rochester',UCLA,UNC,Vassar,'Washington & Lee','Washington U (MO)',Wellesley,'Wesleyan (CT)',Williams,Yale}
+@attribute School_Type {'Lib Arts',Univ}
+@attribute SAT numeric
+@attribute Acceptance numeric
+@attribute $/Student numeric
+@attribute Top numeric
+@attribute '10\%' numeric
+@attribute '\%PhD' numeric
+
+@data
+Oberlin,'Lib Arts',0.474227,0.74,0.071641,0.333333,0.952381,77
+Duke,Univ,0.690722,0.16,0.259423,0.862745,0.880952,91
+Yale,Univ,0.828179,0.04,0.412405,0.843137,0.928571,93
+Middlebury,'Lib Arts',0.501718,0.16,0.08494,0.352941,0.738095,92
+'Carnegie Mellon',Univ,0.398625,0.94,0.189835,0.098039,0.619048,77
+Harvard,Univ,0.896907,0.02,0.346912,0.843137,0.97619,90
+Colby,'Lib Arts',0.312715,0.58,0.015954,0.098039,0.404762,84
+UCLA,Univ,0.113402,0.52,0.110205,0.960784,1,61
+Bates,'Lib Arts',0.450172,0.38,0.000401,0.215686,0.547619,88
+'Washington U (MO)',Univ,0.398625,0.74,0.263895,0.470588,0.952381,76
+'U Michican',Univ,0.295533,0.86,0.051132,0.470588,0.833333,77
+Pomona,'Lib Arts',0.725086,0.32,0.107951,0.627451,0.952381,80
+Davidson,'Lib Arts',0.415808,0.38,0.002372,0.588235,0.857143,89
+'U of Chicago',Univ,0.656357,0.56,0.252732,0.529412,1,73
+Grinnell,'Lib Arts',0.463918,1,0.056418,0.352941,0.5,73
+'U Va.',Univ,0.37457,0.4,0.021772,0.588235,0.785714,88
+Carleton,'Lib Arts',0.656357,0.46,0.023412,0.54902,0.571429,80
+Swarthmore,'Lib Arts',0.690722,0.14,0.117616,0.607843,0.833333,88
+Princeton,Univ,0.793814,0,0.361131,0.823529,0.97619,93
+'Washington & Lee','Lib Arts',0.429553,0.24,0.005641,0.27451,0.738095,78
+Barnard,'Lib Arts',0.381443,0.72,0.001569,0.431373,0.952381,80
+Georgetown,Univ,0.580756,0.14,0.066024,0.627451,0.738095,89
+Rice,Univ,0.749141,0.14,0.108683,0.745098,0.880952,88
+'U Penn',Univ,0.587629,0.48,0.157679,0.784314,0.97619,86
+'Johns Hopkins',Univ,0.621993,0.62,0.329707,0.431373,0,86
+Occidental,'Lib Arts',0.209622,0.64,0.031531,0.137255,0.833333,72
+Hamilton,'Lib Arts',0.364261,0.42,0.037785,0.078431,0.666667,85
+'Claremont McKenna','Lib Arts',0.5189,0.38,0.033714,0.411765,0.857143,74
+'Mount Holyoke','Lib Arts',0.312715,0.88,0.068891,0,0.595238,83
+'Cal Tech',Univ,1,0.28,1,1,0.952381,75
+Colgate,'Lib Arts',0.512027,0.42,0,0.27451,0.47619,85
+Berkeley,Univ,0.230241,0.4,0.072514,0.941176,0.833333,68
+Brown,Univ,0.591065,0.14,0.078839,0.647059,0.952381,90
+Smith,'Lib Arts',0.295533,0.8,0.091466,0.352941,0.761905,87
+UNC,Univ,0,0.3,0.025536,0.686275,0.619048,73
+'Wesleyan (CT)','Lib Arts',0.621993,0.36,0.028652,0.509804,0.690476,91
+Amherst,'Lib Arts',0.707904,0.1,0.107574,0.745098,0.547619,93
+Northwestern,Univ,0.415808,0.6,0.133712,0.588235,0.5,82
+Williams,'Lib Arts',0.780069,0.22,0.073777,0.764706,0.761905,93
+Dartmouth,Univ,0.676976,0.16,0.215761,0.764706,1,95
+Stanford,Univ,0.896907,0.02,0.523955,0.882353,0.904762,88
+'U of Rochester',Univ,0.158076,0.78,0.24872,0.098039,0.904762,73
+'Bryn Mawr','Lib Arts',0.501718,0.78,0.015659,0.45098,0.547619,84
+Columbia,Univ,0.546392,0.24,0.334651,0.607843,0.833333,90
+MIT,Univ,0.852234,0.26,0.463123,0.941176,0.952381,86
+Cornell,Univ,0.587629,0.26,0.231491,0.745098,0.761905,83
+Haverford,'Lib Arts',0.604811,0.36,0.022397,0.470588,0.785714,87
+Vassar,'Lib Arts',0.611684,0.52,0.031378,0.117647,0.761905,84
+Bowdoin,'Lib Arts',0.656357,0.14,0.096564,0.607843,0.880952,90
+Wellesley,'Lib Arts',0.484536,0.64,0.122242,0.568627,0.785714,86

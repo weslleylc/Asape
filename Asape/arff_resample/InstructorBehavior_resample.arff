@@ -1,0 +1,58 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Behavior {'Allocate points for class attendance','Allocate points for class participation','Allocate points for outside readings','Allow time for questions after class','Announce tests in advance','Assign projects requiring the use of the library','Be humorous in class','Be professional in speech and actions','Call students by first name','Call students by last name','Deduct points for assignments submitted late','Discuss ethical issues and societal norms','Empathize with students','Encourage students to dress professionally','Encourage team or group work','Give classwork to enhance learning','Give constructive criticism','Give essay exams','Give homework to enhance learning','Give objective exams','Give students extra credit assignments','Give take-home exams','Give unannounced quizzes','Grade and return tests promptly','Have students read a chapter and answer questions before teaching the content of the chapter','Involve students in class discussions','Listen attentively to student questions','Move around in the classroom when teaching','Not accept assignments submitted late','Offer words of encouragement','Present information in a logical sequence','Preview the lesson before teaching','Provide a break in a two-hour or longer class','Provide help willingly','Relate teaching to career interests','Require compulsory class attendance','Require computer use for class projects','Require students to bring books to class','Require students to know instructor_primes name','Require students to use standard English in class when they speak or write','Require that all papers be typed','Review the lesson after teaching','Set realistic deadlines for assignments','Treat students equally and fairly','Use personal experiences as examples in teaching','Use real world examples in teaching','Use the case study method in teaching','Use transparencies to teach','Vary voice tone while teaching','Write notes on chalkboard while teaching'}
+@attribute IM numeric
+@attribute NU numeric
+@attribute NI numeric
+
+@data
+'Offer words of encouragement',0.981605,0.028391,14
+'Give classwork to enhance learning',0.809365,0.271293,40
+'Call students by last name',0,0.59306,422
+'Announce tests in advance',0.964883,0.059937,14
+'Grade and return tests promptly',0.963211,0.07571,10
+'Require students to bring books to class',0.476589,0.501577,166
+'Allocate points for class participation',0.603679,0.589905,62
+'Not accept assignments submitted late',0.110368,0.842271,277
+'Require compulsory class attendance',0.32107,0.763407,176
+'Allow time for questions after class',0.842809,0.239748,30
+'Set realistic deadlines for assignments',0.979933,0.037855,12
+'Present information in a logical sequence',0.943144,0.100946,14
+'Encourage team or group work',0.528428,0.722397,65
+'Discuss ethical issues and societal norms',0.570234,0.44795,127
+'Use real world examples in teaching',0.934783,0.11041,16
+'Involve students in class discussions',0.874582,0.198738,24
+'Deduct points for assignments submitted late',0.463211,0.690852,114
+'Provide a break in a two-hour or longer class',0.83612,0.271293,24
+'Use personal experiences as examples in teaching',0.662207,0.451104,71
+'Encourage students to dress professionally',0.046823,0.807571,326
+'Require students to use standard English in class when they speak or write',0.720736,0.419558,46
+'Listen attentively to student questions',0.998328,0,13
+'Write notes on chalkboard while teaching',0.688963,0.419558,65
+'Preview the lesson before teaching',0.730769,0.369085,56
+'Give take-home exams',0.294314,0.744479,198
+'Use the case study method in teaching',0.381271,0.798107,129
+'Empathize with students',0.737458,0.347003,59
+'Require students to know instructor_primes name',0.538462,0.580442,104
+'Treat students equally and fairly',0.983278,0.047319,7
+'Assign projects requiring the use of the library',0.377926,0.772871,139
+'Vary voice tone while teaching',0.69398,0.432177,58
+'Allocate points for class attendance',0.531773,0.649842,86
+'Give objective exams',0.543478,0.564669,106
+'Give homework to enhance learning',0.801003,0.293375,38
+'Provide help willingly',1,0.012618,8
+'Allocate points for outside readings',0.217391,0.895899,196
+'Have students read a chapter and answer questions before teaching the content of the chapter',0.312709,0.791798,172
+'Require computer use for class projects',0.294314,0.984227,122
+'Be professional in speech and actions',0.877926,0.192429,24
+'Give students extra credit assignments',0.680602,0.44795,61
+'Require that all papers be typed',0.384615,0.92429,87
+'Give constructive criticism',0.839465,0.211356,41
+'Review the lesson after teaching',0.759197,0.419558,23
+'Give unannounced quizzes',0.0301,1,275
+'Call students by first name',0.414716,0.832808,98
+'Move around in the classroom when teaching',0.326087,0.750789,177
+'Be humorous in class',0.479933,0.611987,129
+'Relate teaching to career interests',0.839465,0.170347,54
+'Give essay exams',0.137124,0.769716,284
+'Use transparencies to teach',0.242475,0.987382,152

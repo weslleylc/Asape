@@ -1,0 +1,22 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Mortality numeric
+@attribute Temperature numeric
+
+@data
+0.663462,48.5
+0.284615,31.8
+0.921154,50
+0.705769,45.1
+0.817308,47.8
+0.617308,42.1
+0,34
+1,49.9
+0.3,40.2
+0.561538,44.2
+0.507692,46.3
+0.834615,49.2
+0.378846,43.5
+0.242308,42.3
+0.961538,51.3
+0.694231,47.3

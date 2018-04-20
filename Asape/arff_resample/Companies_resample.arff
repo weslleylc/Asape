@@ -1,0 +1,91 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Company {'AH Robins',AMR,'Air Products','Allied Signal','American Electric Power','American Savings Bank FSB','Apple Computer','Armstrong World Industries','Bally Manufacturing','Bank South','Bell Atlantic','Brooklyn Union Gas','CBI Industries','California First Bank','Central Illinois Public Service',Cigna,'Cleveland Electric Illuminating','Columbia Gas System','Community Psychiatric Centers','Continental Telecom','Crown Cork & Seal',Dayton-Hudson,'Digital Equipment','Dillard Department Stores',Dreyfus,Eg&G,Ex-Cell-O,'FW Woolworth','First American','First Empire State','First Tennessee National','Florida Progress',Fruehauf,'General Electric','Giant Food','Great A&P Tea','H&R Block',Halliburton,Hewlett-Packard,'Hospital Corp of America',IBM,'IU International','Idaho Power','Kansas Power & Light',Kroger,LTV,'Liz Claiborne','Marine Corp','May Department Stores','Mellon Bank','Mesa Petroleum','Montana Power',NCR,'National City','Norstar Bancorp',Norwest,'Owens-Corning Fiberglas','PPG Industries','Pan Am','Peoples Energy','Phillips Petroleum','Public Service Co of New Mexico','Republic Airlines','San Diego Gas & Electric','Shared Medical Systems','Southeast Banking','Sovran Financial','Stop & Shop Cos','Supermarkets General',TWA,Telex,Textron,Turner,'United Financial Group','United Technologies','Valero Energy','Warner Communications','Western Air Lines','Wickes Cos'}
+@attribute Assets numeric
+@attribute Sales numeric
+@attribute Market_Value numeric
+@attribute Profits numeric
+@attribute Cash_Flow numeric
+@attribute Employees numeric
+@attribute sector {Communication,Energy,Finance,HiTech,Manufacturing,Medical,Other,Retail,Transportation}
+
+@data
+Norwest,0.404419,0.046913,0.009169,0.119989,0.07758,0.037538,Finance
+Dayton-Hudson,0.08004,0.172755,0.046067,0.144011,0.105302,0.318819,Retail
+'PPG Industries',0.073668,0.083601,0.031053,0.146618,0.111496,0.092342,Manufacturing
+'Southeast Banking',0.206617,0.018464,0.005782,0.114161,0.071205,0.016016,Finance
+'General Electric',0.500067,0.563532,0.346274,0.424145,0.400336,0.759259,HiTech
+'Mellon Bank',0.63313,0.061067,0.014219,0.132833,0.08537,0.038038,Finance
+'American Savings Bank FSB',0.0647,0.003829,0.000387,0.107227,0.06427,0.001251,Finance
+'Warner Communications',0.039362,0.041279,0.023556,0.131959,0.082739,0.018519,Other
+'Air Products',0.047013,0.033962,0.019207,0.125189,0.095393,0.044044,Other
+'Idaho Power',0.027303,0.005513,0.007591,0.116877,0.074321,0.002503,Energy
+'AH Robins',0.009235,0.010626,0.002321,0.113683,0.069324,0.013764,Medical
+'San Diego Gas & Electric',0.054626,0.031335,0.015202,0.132969,0.093778,0.010761,Energy
+'Cleveland Electric Illuminating',0.103566,0.021612,0.020378,0.14771,0.100685,0.014014,Energy
+'Kansas Power & Light',0.02778,0.023617,0.006629,0.118106,0.076621,0.01001,Energy
+'FW Woolworth',0.044113,0.115918,0.019531,0.129462,0.089294,0.294044,Retail
+Cigna,0.849306,0.321191,0.048095,0.005323,0,0.11987,Finance
+'United Financial Group',0.090935,0.006856,0,0.10488,0.061904,0.000501,Finance
+'CBI Industries',0.017267,0.026864,0.003942,0.098888,0.06447,0.031532,Manufacturing
+'National City',0.23434,0.022574,0.006786,0.120098,0.074416,0.021021,Finance
+'Brooklyn Union Gas',0.017057,0.017281,0.004444,0.113451,0.070645,0.008008,Energy
+'Republic Airlines',0.020282,0.031235,0.00322,0.114748,0.075775,0.034284,Transportation
+Kroger,0.075461,0.339775,0.021308,0.12998,0.099022,0.41041,Retail
+'Bell Atlantic',0.373299,0.178589,0.11065,0.254473,0.306739,0.197197,Communication
+'Bally Manufacturing',0.024918,0.022434,0.004088,0.108797,0.074948,0.047047,Other
+'First Empire State',0.044361,0.001764,0.001338,0.108333,0.064422,0.003754,Finance
+'Armstrong World Industries',0.0166,0.030132,0.010633,0.119075,0.077561,0.050551,Manufacturing
+'California First Bank',0.098796,0.007498,0.003377,0.108797,0.065496,0.008759,Finance
+'Stop & Shop Cos',0.016962,0.070429,0.005113,0.109438,0.071139,0.107357,Retail
+Dreyfus,0.003396,0,0.01078,0.112892,0.067348,0.00025,Finance
+TWA,0.048578,0.071151,0.006378,0.076858,0.063111,0.071321,Transportation
+'May Department Stores',0.061418,0.098316,0.027393,0.137433,0.096277,0.191942,Retail
+'Crown Cork & Seal',0.012268,0.026283,0.009316,0.115089,0.072896,0.03003,Other
+'IU International',0.014806,0.034122,0.003555,0.081622,0.051663,0.056807,Transportation
+'Wickes Cos',0.052165,0.052727,0.004224,0.110844,0.070816,0.123624,Retail
+'Continental Telecom',0.092557,0.047735,0.019228,0.138047,0.116874,0.053303,Communication
+Eg&G,0.00395,0.019627,0.010372,0.112905,0.068659,0.054805,HiTech
+'Digital Equipment',0.127664,0.13739,0.08264,0.159981,0.133632,0.216967,HiTech
+'Bank South',0.04894,0.001905,0.002624,0.10851,0.064679,0.003754,Finance
+'Sovran Financial',0.180287,0.017261,0.008113,0.117942,0.073162,0.019019,Finance
+'Norstar Bancorp',0.167427,0.014154,0.009776,0.117996,0.073238,0.017017,Finance
+'Peoples Energy',0.02322,0.028889,0.006127,0.116454,0.073941,0.007257,Energy
+'Dillard Department Stores',0.012192,0.028569,0.010874,0.114434,0.072079,0.038539,Retail
+Fruehauf,0.030165,0.047875,0.004496,0.114925,0.077599,0.065065,Manufacturing
+'Valero Energy',0.03381,0.04984,0.003011,0.110039,0.0715,0.004254,Energy
+'Shared Medical Systems',0.000553,0.002727,0.008678,0.110994,0.06769,0.006757,Medical
+'Pan Am',0.042453,0.066319,0.010278,0.111963,0.086358,0.062062,Transportation
+'Apple Computer',0.015245,0.031636,0.01377,0.11513,0.073286,0.010511,HiTech
+Telex,0.004865,0.009944,0.0085,0.114461,0.071585,0.012012,HiTech
+Textron,0.193185,0.111167,0.019468,0.135822,0.092572,0.122372,Manufacturing
+Hewlett-Packard,0.105817,0.128208,0.098375,0.171091,0.137176,0.206206,HiTech
+AMR,0.118334,0.119387,0.025041,0.152501,0.126773,0.122372,Transportation
+NCR,0.07092,0.083019,0.04064,0.148325,0.115734,0.153654,HiTech
+'Public Service Co of New Mexico',0.053176,0.011488,0.011156,0.125271,0.081808,0.007007,Energy
+IBM,1,1,1,1,1,1,HiTech
+'Mesa Petroleum',0.019729,0.003589,0.001338,0.128165,0.090814,0,Energy
+'First American',0.087119,0.005553,0.003283,0.11079,0.066816,0.006006,Finance
+'Western Air Lines',0.013909,0.022674,0.002677,0.110134,0.070749,0.024274,Transportation
+'Marine Corp',0.066723,0.003609,0.001652,0.108933,0.065239,0.004505,Finance
+'Community Psychiatric Centers',0.001049,0.000581,0.008364,0.111417,0.066731,0.008008,Medical
+Ex-Cell-O,0.01099,0.019326,0.006587,0.113165,0.070407,0.037037,Other
+'Liz Claiborne',0,0.007638,0.01032,0.113574,0.067985,0.003253,Other
+'H&R Block',0.001984,0.007338,0.009473,0.112687,0.068821,0.005506,Finance
+'American Electric Power',0.255633,0.093665,0.047248,0.171501,0.147332,0.057057,Energy
+'Phillips Petroleum',0.263723,0.309944,0.02824,0.162356,0.200828,0.066817,Energy
+'Montana Power',0.029002,0.00844,0.006942,0.1219,0.078312,0.007257,Energy
+'Central Illinois Public Service',0.026903,0.010525,0.006545,0.115444,0.074844,0.005506,Energy
+'Supermarkets General',0.016809,0.099178,0.00896,0.113997,0.074597,0.11987,Retail
+'Great A&P Tea',0.026426,0.12909,0.008113,0.11296,0.074663,0.161161,Retail
+'Florida Progress',0.062411,0.029611,0.014523,0.127264,0.092363,0.014515,Energy
+Halliburton,0.084696,0.092322,0.030687,0.10922,0.097227,0.164164,Manufacturing
+'Giant Food',0.007632,0.04152,0.007779,0.113083,0.070844,0.045045,Retail
+'First Tennessee National',0.095896,0.007037,0.003063,0.110462,0.067272,0.008759,Finance
+'Owens-Corning Fiberglas',0.040888,0.062731,0.011125,0.12321,0.086301,0.061562,Manufacturing
+'Hospital Corp of America',0.115167,0.079711,0.031753,0.144025,0.111762,0.153654,Medical
+'Columbia Gas System',0.107077,0.077727,0.016185,0.0925,0.078445,0.025526,Energy
+LTV,0.116083,0.160846,0.005698,0,0.012122,0.142392,Manufacturing
+'Allied Signal',0.248955,0.17921,0.085076,0.067222,0.069818,0.358358,Other
+'United Technologies',0.196619,0.297033,0.055665,0.147983,0.129452,0.460961,Manufacturing
+Turner,0.010093,0.039555,0.000502,0.106818,0.063377,0.005005,Manufacturing

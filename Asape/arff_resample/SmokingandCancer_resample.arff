@@ -1,0 +1,32 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Occupational_Group {'Administrators and managers','Clerical workers','Clothing workers','Construction workers','Drivers of stationary engines, cranes, etc.','Electrical and electronics workers','Engineering and allied trades','Farmers, foresters, and fisherman','Food, drink, and tobacco workers','Furnace, forge, foundry, and rolling mill workers','Gas, coke and chemical makers','Glass and ceramics makers','Laborers not included elsewhere','Leather workers','Makers of other products','Miners and quarrymen','Painters and decorators','Paper and printing workers','Professionals, technical workers, and artists','Sales workers','Service, sport, and recreation workers','Textile workers','Transport and communications workers','Warehousemen, storekeepers, packers, and bottlers',Woodworkers}
+@attribute Smoking numeric
+@attribute Mortality numeric
+
+@data
+'Engineering and allied trades',0.633803,118
+'Clothing workers',0.352113,104
+'Electrical and electronics workers',0.507042,101
+'Laborers not included elsewhere',0.943662,146
+'Paper and printing workers',0.577465,86
+'Warehousemen, storekeepers, packers, and bottlers',0.549296,115
+'Painters and decorators',0.619718,139
+'Service, sport, and recreation workers',0.478873,120
+'Textile workers',0.507042,88
+'Sales workers',0.352113,85
+'Clerical workers',0.295775,79
+'Gas, coke and chemical makers',0.71831,123
+'Makers of other products',0.647887,96
+'Miners and quarrymen',1,116
+Woodworkers,0.380282,113
+'Furnace, forge, foundry, and rolling mill workers',0.704225,155
+'Administrators and managers',0.140845,60
+'Transport and communications workers',0.690141,128
+'Leather workers',0.309859,104
+'Farmers, foresters, and fisherman',0.15493,84
+'Construction workers',0.661972,144
+'Professionals, technical workers, and artists',0,51
+'Glass and ceramics makers',0.394366,128
+'Drivers of stationary engines, cranes, etc.',0.830986,113
+'Food, drink, and tobacco workers',0.535211,129

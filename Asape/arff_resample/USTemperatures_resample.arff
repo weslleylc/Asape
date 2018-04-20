@@ -1,0 +1,64 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute City {Albany_NY,Albuquerque_NM,Amarillo_TX,Atlanta_GA,'Atlantic City_NJ',Baltimore_MD,Bismarck_ND,Boise_ID,Boston_MA,Burlington_VT,Charleston_SC,Charlotte_NC,Cheyenne_WY,Chicago_IL,Cincinnati_OH,Cleveland_OH,Concord_NH,Denver_CO,'Des Moines_IA',Detroit_MI,Galveston_TX,Harrisburg_PA,Helena_MT,Houston_TX,Indianapolis_IN,Jacksonville_FL,'Key West_FL','Little Rock_AR','Los Angeles_CA',Louisville_KY,Madison_WI,Miami_FL,Milwaukee_WI,Minneapolis_MN,Mobile_AL,Montgomery_AL,Nashville_TN,'New Haven_CT','New Orleans_LA','New York_NY',Norfolk_VA,'Oklahoma City_OK',Omaha_NE,Philadelphia_PA,Phoenix_AZ,Portland_ME,Portland_OR,Raleigh_NC,'Salt Lake City_UT','San Francisco_CA',Seattle_WA,Spokane_WA,'St. Louis_MO',Washington_DC,Wichita_KS,Wilmington_DE}
+@attribute JanTemp numeric
+@attribute Lat numeric
+@attribute Long numeric
+
+@data
+Cincinnati_OH,0.4,0.614719,85
+Louisville_KY,0.415385,0.606061,86.5
+'New Haven_CT',0.338462,0.722944,73.4
+Detroit_MI,0.323077,0.78355,83.9
+Jacksonville_FL,0.692308,0.25974,82.3
+Charlotte_NC,0.523077,0.471861,81.5
+Concord_NH,0.169231,0.800866,71.9
+Houston_TX,0.676923,0.220779,95.9
+Albany_NY,0.215385,0.761905,73.7
+Omaha_NE,0.2,0.731602,96.1
+'Des Moines_IA',0.169231,0.727273,93.6
+Phoenix_AZ,0.538462,0.372294,112.5
+Portland_OR,0.507692,0.891775,123.2
+'New Orleans_LA',0.692308,0.251082,90.2
+'Little Rock_AR',0.476923,0.450216,92.8
+Montgomery_AL,0.584615,0.341991,86.8
+Denver_CO,0.230769,0.679654,105.3
+Spokane_WA,0.292308,1,117.9
+Atlanta_GA,0.569231,0.385281,85
+Wilmington_DE,0.4,0.670996,76.3
+Amarillo_TX,0.369231,0.458874,101.9
+Helena_MT,0.123077,0.95671,112.4
+Miami_FL,0.892308,0.056277,80.7
+'St. Louis_MO',0.369231,0.619048,90.5
+Charleston_SC,0.584615,0.359307,80.8
+Milwaukee_WI,0.2,0.792208,88.1
+Wichita_KS,0.338462,0.5671,97.6
+Portland_ME,0.184615,0.831169,70.5
+Mobile_AL,0.676923,0.268398,88.5
+Madison_WI,0.138462,0.796537,90.2
+'Salt Lake City_UT',0.276923,0.69697,112.3
+Minneapolis_MN,0.030769,0.904762,93.9
+Washington_DC,0.461538,0.636364,77.5
+Philadelphia_PA,0.369231,0.688312,75.5
+Albuquerque_NM,0.369231,0.437229,106.7
+Boise_ID,0.338462,0.809524,117.1
+'Los Angeles_CA',0.723077,0.402597,118.7
+Harrisburg_PA,0.369231,0.688312,77.8
+Baltimore_MD,0.384615,0.636364,77.3
+Galveston_TX,0.753846,0.190476,95.5
+Boston_MA,0.353846,0.766234,71.4
+'Key West_FL',1,0,82
+'San Francisco_CA',0.646154,0.580087,123
+Nashville_TN,0.476923,0.506494,87.6
+Cheyenne_WY,0.215385,0.701299,104.9
+Raleigh_NC,0.476923,0.493506,78.9
+'Atlantic City_NJ',0.415385,0.640693,75.3
+Seattle_WA,0.507692,1,122.5
+'Oklahoma City_OK',0.430769,0.471861,97.5
+Chicago_IL,0.292308,0.748918,88
+Indianapolis_IN,0.323077,0.640693,86.9
+Norfolk_VA,0.492308,0.519481,76.6
+Cleveland_OH,0.323077,0.748918,82.5
+Burlington_VT,0.107692,0.865801,73.9
+'New York_NY',0.415385,0.683983,74.6
+Bismarck_ND,0,0.95671,101

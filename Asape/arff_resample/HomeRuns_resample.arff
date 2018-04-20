@@ -1,0 +1,21 @@
+@relation relation-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.instance.ReservoirSample-S1-Z100
+
+@attribute Team {Baltimore,Boston,California,Chicago,Cleveland,Detroit,'Kansas City',Milwaukee,Minnesota,'New York',Oakland,Seattle,Texas,Toronto}
+@attribute Home_Runs numeric
+@attribute Batting_Average numeric
+
+@data
+Boston,0.188406,0.277
+Texas,0.478261,0.266
+Cleveland,0.376812,0.263
+Baltimore,0.753623,0.257
+Minnesota,0.507246,0.261
+Seattle,0,0.272
+California,0.15942,0.252
+'New York',0.507246,0.262
+Milwaukee,0.028986,0.276
+Chicago,0.173913,0.258
+Toronto,0.768116,0.269
+Oakland,0.550725,0.259
+Detroit,1,0.272
+'Kansas City',0.086957,0.262

@@ -1,0 +1,10 @@
+
+#classification.mat
+
+1-N of instantes N, 2-of features, 3-size model, 4-size data, 5-n. of numeric, 6-n of nominal, 7-n. of date, 8-n. of relational, 9-time for training(ms) 12time for traning/n of isntances, 11 size ram data,12-elapsed time, 13-memory, 14-acurracy
+              
+#regression.mat
+
+1-N of instantes N, 2-of features, 3-size model, 4-size data, 5-n. of numeric, 6-n of nominal, 7-n. of date, 8-n. of relational, 9-time for training(ms) 12time for traning/n of isntances, 11 size ram data,12-elapsed time, 13-memory, 14-correlationCoefficient, 15-meanAbsoluteError,16-rootMeanSquaredError,17-relativeAbsoluteError,18-rootRelativeSquaredError 
+
+ 
